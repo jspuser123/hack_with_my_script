@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Føj til Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Downloader opdatering</string>
+    <string name="feed_browser_more_options">Flere indstillinger</string>
+    <string name="feed_browser_cannot_load_page">Siden kan ikke indlæses</string>
+    <string name="browser_ssl_error_title">Sikkerhedsfejl</string>
+    <string name="browser_ssl_error_message">Der er problemer med sikkerhedscertifikatet for dette website</string>
+    <string name="browser_ssl_error_positive_button_text">Gå tilbage</string>
+    <string name="feed_browser_menu_item_install_specific_app">Installer %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Installer app</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Åbn i %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Åbn i app</string>
+    <string name="feed_browser_menu_item_open_with">Åbn med …</string>
+    <string name="browser_text_zoom_percentage_template">%1$d %%</string>
+    <string name="browser_zoom_in_button_description">Zoom ind</string>
+    <string name="browser_zoom_out_button_description">Zoom ud</string>
+    <string name="browser_close_button_description">Luk browser</string>
+    <string name="browser_share_icon_description">Del indhold</string>
+    <string name="browser_lite_location_permission_prompt">%1$s vil bruge din enheds placering.</string>
+    <string name="browser_lite_location_permission_allow">Tillad</string>
+    <string name="browser_lite_location_permission_block">Bloker</string>
+    <string name="browser_add_platform_extension_description">Tilføj platformudvidelse</string>
+    <string name="browser_confirm_platform_extension_added_description">Bekræft tilføjet platformsudvidelse</string>
+    <string name="common_google_play_services_unknown_issue">Ukendt problem med Google Play-tjenester.</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Pridať do aplikácie Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Sťahuje sa aktualizácia</string>
+    <string name="feed_browser_more_options">Ďalšie možnosti</string>
+    <string name="feed_browser_cannot_load_page">Stránku sa nepodarilo načítať</string>
+    <string name="browser_ssl_error_title">Chyba zabezpečenia</string>
+    <string name="browser_ssl_error_message">S bezpečnostným certifikátom pre tento web sú problémy</string>
+    <string name="browser_ssl_error_positive_button_text">Späť</string>
+    <string name="feed_browser_menu_item_install_specific_app">Inštalovať %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Inštalovať aplikáciu</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Otvoriť v aplikácii %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Otvoriť v aplikácii</string>
+    <string name="feed_browser_menu_item_open_with">Otvoriť v aplikácii…</string>
+    <string name="browser_text_zoom_percentage_template">%1$d %%</string>
+    <string name="browser_zoom_in_button_description">Priblížiť</string>
+    <string name="browser_zoom_out_button_description">Vzdialiť</string>
+    <string name="browser_close_button_description">Zavrieť prehliadač</string>
+    <string name="browser_share_icon_description">Zdieľať obsah</string>
+    <string name="browser_lite_location_permission_prompt">%1$s chce použiť polohu vášho zariadenia.</string>
+    <string name="browser_lite_location_permission_allow">Povoliť</string>
+    <string name="browser_lite_location_permission_block">Zablokovať</string>
+    <string name="browser_add_platform_extension_description">Pridať rozšírenie platformy</string>
+    <string name="browser_confirm_platform_extension_added_description">Potvrdiť pridané rozšírenie platformy</string>
+    <string name="common_google_play_services_unknown_issue">Neznámy problém so službami Google Play.</string>
+</resources>

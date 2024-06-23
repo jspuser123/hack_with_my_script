@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fbLiteTheme" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/default_background</item>
+    </style>
+    <style name="fbLitePlatformSpecificTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@color/default_background</item>
+    </style>
+    <style name="nativeDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="BrowserMenuItem">
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/navigation_popup_menu_row_height</item>
+    </style>
+    <style name="MenuItemIconAndTextTextView" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/browser_menu_text_size</item>
+        <item name="android:textColor">@color/browser_more_menu_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:background">@drawable/clickable_item_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/browser_custom_menu_horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/browser_custom_menu_horizontal_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">8.0dip</item>
+    </style>
+    <style name="MenuItemDivider">
+        <item name="android:background">@color/browser_more_menu_divider_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/browser_menu_divider_height</item>
+        <item name="android:layout_marginLeft">@dimen/browser_custom_menu_horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/browser_custom_menu_horizontal_padding</item>
+    </style>
+    <item type="style" name="APKTOOL_DUMMY_6">false</item>
+    <item type="style" name="APKTOOL_DUMMY_7">false</item>
+    <item type="style" name="APKTOOL_DUMMY_8">false</item>
+</resources>

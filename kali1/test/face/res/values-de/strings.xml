@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Zu Lite hinzufügen</string>
+    <string name="appupdate_notif_title_download_in_progress">Update wird heruntergeladen</string>
+    <string name="feed_browser_more_options">Weitere Optionen</string>
+    <string name="feed_browser_cannot_load_page">Seite kann nicht geladen werden</string>
+    <string name="browser_ssl_error_title">Sicherheitsfehler</string>
+    <string name="browser_ssl_error_message">Mit dem Sicherheitszertifikat für diese Webseite sind Probleme aufgetreten</string>
+    <string name="browser_ssl_error_positive_button_text">Zurück</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$s installieren</string>
+    <string name="feed_browser_menu_item_install_app">App installieren</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">In %1$s öffnen</string>
+    <string name="feed_browser_menu_item_open_with_app">In der App öffnen</string>
+    <string name="feed_browser_menu_item_open_with">Öffnen mit …</string>
+    <string name="browser_zoom_in_button_description">Vergrößern</string>
+    <string name="browser_zoom_out_button_description">Verkleinern</string>
+    <string name="browser_close_button_description">Browser schließen</string>
+    <string name="browser_share_icon_description">Inhalte teilen</string>
+    <string name="browser_lite_location_permission_prompt">%1$s möchte den Standort deines Geräts verwenden.</string>
+    <string name="browser_lite_location_permission_allow">Zulassen</string>
+    <string name="browser_lite_location_permission_block">Blockieren</string>
+    <string name="browser_add_platform_extension_description">Plattformerweiterung hinzufügen</string>
+    <string name="browser_confirm_platform_extension_added_description">Hinzugefügte Plattformerweiterung bestätigen</string>
+    <string name="common_google_play_services_unknown_issue">Unbekanntes Problem mit Google Play-Diensten</string>
+</resources>

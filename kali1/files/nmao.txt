@@ -1,0 +1,109 @@
+android@localhost:~$ sudo su
+root@localhost:/home/android# cd
+root@localhost:~# nmap -sV - A 192.168.1.1/24
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2017-10-10 16:47 IST
+Failed to resolve "-".
+Failed to resolve "A".
+Stats: 0:00:46 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 2.35% done; ETC: 16:47 (0:00:00 remaining)
+Stats: 0:01:22 elapsed; 252 hosts completed (3 up), 3 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 16.12% done; ETC: 16:49 (0:00:42 remaining)
+Stats: 0:02:18 elapsed; 252 hosts completed (3 up), 3 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 67.72% done; ETC: 16:50 (0:00:31 remaining)
+Stats: 0:03:02 elapsed; 252 hosts completed (3 up), 3 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.99% done; ETC: 16:50 (0:00:00 remaining)
+Stats: 0:03:40 elapsed; 252 hosts completed (3 up), 3 undergoing Service Scan
+Service scan Timing: About 64.71% done; ETC: 16:51 (0:00:16 remaining)
+Nmap scan report for 192.168.1.1
+Host is up (0.0044s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE VERSION
+21/tcp   open  ftp
+22/tcp   open  ssh     Dropbear sshd 0.48 (protocol 2.0)
+23/tcp   open  telnet
+53/tcp   open  domain?
+80/tcp   open  http    ZyXEL Virtual Web httpd 0.9
+5431/tcp open  upnp    MiniUPnP
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port21-TCP:V=7.60%I=7%D=10/10%Time=59DCACFD%P=arm-unknown-linux-gnueabi
+SF:hf%r(NULL,25,"220\x20FTP\x20server\x20\(192\.168\.1\.1\)\x20ready\.\r\n
+SF:")%r(GenericLines,3E,"220\x20FTP\x20server\x20\(192\.168\.1\.1\)\x20rea
+SF:dy\.\r\n500\x20Unknown\x20command:\x20\"\"\r\n")%r(Help,39,"220\x20FTP\
+SF:x20server\x20\(192\.168\.1\.1\)\x20ready\.\r\n503\x20USER\x20expected\.
+SF:\r\n")%r(SMBProgNeg,3E,"220\x20FTP\x20server\x20\(192\.168\.1\.1\)\x20r
+SF:eady\.\r\n500\x20Unknown\x20command:\x20\"\"\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port23-TCP:V=7.60%I=7%D=10/10%Time=59DCACFD%P=arm-unknown-linux-gnueabi
+SF:hf%r(NULL,36,"\xff\xfd\x03\xff\xfd\x18\xff\xfd\x1f\xff\xfb\x01\r\r\nUse
+SF:r\x20Access\x20Verification\r\n\r\r\nUsername:\x20")%r(GenericLines,6B,
+SF:"\xff\xfd\x03\xff\xfd\x18\xff\xfd\x1f\xff\xfb\x01\r\r\nUser\x20Access\x
+SF:20Verification\r\n\r\r\nUsername:\x20\r\n\r\r\nPassword:\x20\r\nBad\x20
+SF:username/Password\r\n\r\r\nUsername:\x20")%r(tn3270,48,"\xff\xfd\x03\xf
+SF:f\xfd\x18\xff\xfd\x1f\xff\xfb\x01\r\r\nUser\x20Access\x20Verification\r
+SF:\n\r\r\nUsername:\x20\xff\xfa\x18\x01\xff\xf0\xff\xfe\x19\xff\xfc\x19\x
+SF:ff\xfe\0\xff\xfc\0")%r(GetRequest,79,"\xff\xfd\x03\xff\xfd\x18\xff\xfd\
+SF:x1f\xff\xfb\x01\r\r\nUser\x20Access\x20Verification\r\n\r\r\nUsername:\
+SF:x20GET\x20/\x20HTTP/1\.0\r\n\r\r\nPassword:\x20\r\nBad\x20username/Pass
+SF:word\r\n\r\r\nUsername:\x20")%r(RPCCheck,C2,"\xff\xfd\x03\xff\xfd\x18\x
+SF:ff\xfd\x1f\xff\xfb\x01\r\r\nUser\x20Access\x20Verification\r\n\r\r\nUse
+SF:rname:\x20\x80\(r\xfe\x1d\x13\x1bD\x1bD\x1bD\x1bD\x1bD\x1bD\x86\rAP>\x8
+SF:6\x80\(r\xfe\x1d\x13\x20\x08\x1bD\x1bD\x1bD\x1bD\x1bD\x1bD\xa0\rAP>\x86
+SF:\xa0\x80\(r\xfe\x1d\x13\x20\x08\x1bD\x1bD\x1bD\x1bD\x1bD\x1bD\x1bD\x1bD
+SF:\x97\rAP>\x97\x86\xa0\x80\(r\xfe\x1d\x13\x20\x08\x1bD\x1bD\x1bD\x1bD\x1
+SF:bD\x1bD\x1bD\x1bD\|\rAP>\x97\|\x86\xa0\x80\(r\xfe\x1d\x13\x20\x08\x1bD\
+SF:x1bD\x1bD\x1bD\x1bD\x1bD\x1bD\x1bD")%r(Help,49,"\xff\xfd\x03\xff\xfd\x1
+SF:8\xff\xfd\x1f\xff\xfb\x01\r\r\nUser\x20Access\x20Verification\r\n\r\r\n
+SF:Username:\x20HELP\r\n\r\r\nPassword:\x20")%r(SIPOptions,106,"\xff\xfd\x
+SF:03\xff\xfd\x18\xff\xfd\x1f\xff\xfb\x01\r\r\nUser\x20Access\x20Verificat
+SF:ion\r\n\r\r\nUsername:\x20OPTIONS\x20sip:nm\x20SIP/2\.0\r\n\r\r\nPasswo
+SF:rd:\x20\r\nBad\x20username/Password\r\n\r\r\nUsername:\x20From:\x20<sip
+SF::nm@nm>;tag=root\r\n\r\r\nPassword:\x20\r\nBad\x20username/Password\r\n
+SF:\r\r\nUsername:\x20Call-ID:\x2050000\r\n\r\r\nPassword:\x20\r\nBad\x20u
+SF:sername/Password\r\n")%r(NCP,48,"\xff\xfd\x03\xff\xfd\x18\xff\xfd\x1f\x
+SF:ff\xfb\x01\r\r\nUser\x20Access\x20Verification\r\n\r\r\nUsername:\x20Dm
+SF:dT\x08\x20\x08\x08\x20\x08\x08\x20\x08\x08\x20\x08\x11\x11");
+MAC Address: 94:FB:B2:D6:35:F0 (Shenzhen Gongjin Electronics)
+Service Info: OS: Linux; Device: WAP; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.2
+Host is up (0.0024s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Microsoft Windows XP microsoft-ds
+1433/tcp open  ms-sql-s     Microsoft SQL Server 2000 8.00.760; SP3
+2869/tcp open  http         Microsoft HTTPAPI httpd 1.0 (SSDP/UPnP)
+MAC Address: 78:24:AF:BF:B9:6C (Asustek Computer)
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Nmap scan report for 192.168.1.108
+Host is up (0.0028s latency).
+Not shown: 994 closed ports
+PORT      STATE SERVICE  VERSION
+80/tcp    open  http     Dahua webcam httpd
+443/tcp   open  ssl/http Dahua webcam httpd
+554/tcp   open  rtsp
+3800/tcp  open  pwgpsi?
+5000/tcp  open  upnp?
+49152/tcp open  unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port554-TCP:V=7.60%I=7%D=10/10%Time=59DCAD4C%P=arm-unknown-linux-gnueab
+SF:ihf%r(SIPOptions,6B,"RTSP/1\.0\x20401\x20Unauthorized\r\nServer:\x20Rts
+SF:p\x20Server/2\.0\r\nCSeq:\x2042\r\nWWW-Authenticate:\x20Basic\x20realm=
+SF:\"DahuaRtsp\"\r\n\r\n");
+MAC Address: 4C:11:BF:16:90:C6 (Zhejiang Dahua Technology)
+Service Info: Device: webcam
+
+Nmap scan report for 192.168.1.3
+Host is up (0.00045s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.5p1 Debian 10 (protocol 2.0)
+5900/tcp open  vnc     VNC (protocol 3.8)
+6000/tcp open  X11     (access denied)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+root@localhost:~# 

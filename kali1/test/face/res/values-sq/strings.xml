@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">Më shumë mundësi</string>
+    <string name="browser_ssl_error_positive_button_text">Kthehu mbrapa</string>
+    <string name="feed_browser_menu_item_open_with_app">Hape në program</string>
+    <string name="browser_lite_location_permission_allow">Lejo</string>
+    <string name="browser_lite_location_permission_block">Blloko</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">[Add to Lite#8d2c0baafc2a23cdf272189aef2835bf:1]</string>
+    <string name="appupdate_notif_title_download_in_progress">[Downloading update#b97ec7a08afe7e2cf1cb46f3c608833f:1]</string>
+    <string name="feed_browser_more_options">[More options#0b31ab7e5c47ca2cc253943f0e9fef81:1]</string>
+    <string name="feed_browser_cannot_load_page">"[Page can't be loaded#217a554ad8ab8e933e664f0f85dda94e:1]"</string>
+    <string name="browser_ssl_error_title">[Security error#51b43d963b36f8621e8528f808ae7cb8:1]</string>
+    <string name="browser_ssl_error_message">[There are problems with the security certificate for this site#06b5d9a730f59fdc720d3ddfdee37593:1]</string>
+    <string name="browser_ssl_error_positive_button_text">[Go Back#6e19608c34dd9b71c8a86f0edc46eae6:1]</string>
+    <string name="feed_browser_menu_item_install_specific_app">[Install %1$s#8721ca599c1c0d5bd774a03024edcbdc:1]</string>
+    <string name="feed_browser_menu_item_install_app">[Install app#8534b008c2d7c6531ec4da95d00883ac:1]</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">[Open in %1$s#0e342b5db6b4204ecf2a711a5d749bd7:1]</string>
+    <string name="feed_browser_menu_item_open_with_app">[Open in app#afb10b644c645a0c3f592f75b824b445:1]</string>
+    <string name="feed_browser_menu_item_open_with">[Open with …#786ee43ece3abbcc201723055a0cab5d:1]</string>
+    <string name="browser_text_zoom_percentage_template">[%1$d%%#2820964b6a4017ce4833ab50e22ca73b:1]</string>
+    <string name="browser_zoom_in_button_description">[Zoom in#68783274b5ebec72a8e968fdc04edd09:1]</string>
+    <string name="browser_zoom_out_button_description">[Zoom out#5914427defe6eebf361eea218145c1aa:1]</string>
+    <string name="browser_close_button_description">[Close browser#02d659405af35835d13da39af1d2e00c:1]</string>
+    <string name="browser_share_icon_description">[Share Content#94f67f2c37df6b3267823b7b551b2946:1]</string>
+    <string name="browser_lite_location_permission_prompt">"[%1$s wants to use your device's location.#5af8e7889a1847aaf3c7b40f30a94644:1]"</string>
+    <string name="browser_lite_location_permission_allow">[Allow#d53d007d5da30f8343b0f2dd7f9cde06:1]</string>
+    <string name="browser_lite_location_permission_block">[Block#5f94bfe79300e8dd5cf68d687d9f87e6:1]</string>
+    <string name="browser_add_platform_extension_description">[Add Platform Extension#d40f59a866d0b42dc2d7fca04d1c64dd:1]</string>
+    <string name="browser_confirm_platform_extension_added_description">[Confirm Added Platform Extension#7931899c22ce82184f07efb9e76d8b6a:1]</string>
+</resources>

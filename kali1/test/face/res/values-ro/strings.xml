@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Adaugă în Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Se descarcă actualizarea</string>
+    <string name="feed_browser_more_options">Mai multe opţiuni</string>
+    <string name="feed_browser_cannot_load_page">Pagina nu s-a încărcat</string>
+    <string name="browser_ssl_error_title">Eroare de securitate</string>
+    <string name="browser_ssl_error_message">Există probleme cu certificatul de securitate al acestui site</string>
+    <string name="browser_ssl_error_positive_button_text">Înapoi</string>
+    <string name="feed_browser_menu_item_install_specific_app">Instalează %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Instalează aplicaţia</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Deschide în %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Deschide în aplicaţie</string>
+    <string name="feed_browser_menu_item_open_with">Deschide cu...</string>
+    <string name="browser_zoom_in_button_description">Măreşte</string>
+    <string name="browser_zoom_out_button_description">Micşorează</string>
+    <string name="browser_close_button_description">Închide browserul</string>
+    <string name="browser_share_icon_description">Distribuie conţinutul</string>
+    <string name="browser_lite_location_permission_prompt">%1$s doreşte să folosească locaţia dispozitivului tău.</string>
+    <string name="browser_lite_location_permission_allow">Permite</string>
+    <string name="browser_lite_location_permission_block">Blochează</string>
+    <string name="browser_add_platform_extension_description">Adaugă o extensie de platformă</string>
+    <string name="browser_confirm_platform_extension_added_description">Confirmă adăugarea extensiei de platformă</string>
+    <string name="common_google_play_services_unknown_issue">Problemă necunoscută privind Servicii Google Play.</string>
+</resources>

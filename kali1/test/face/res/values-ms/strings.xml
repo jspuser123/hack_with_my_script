@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Tambah pada Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Muat turun kemas kini</string>
+    <string name="feed_browser_more_options">Lebih pilihan</string>
+    <string name="feed_browser_cannot_load_page">Halaman tidak boleh dimuatkan</string>
+    <string name="browser_ssl_error_title">Keselamatan ralat</string>
+    <string name="browser_ssl_error_message">Terdapat masalah dengan sijil keselamatan untuk laman ini</string>
+    <string name="browser_ssl_error_positive_button_text">Kembali</string>
+    <string name="feed_browser_menu_item_install_specific_app">Pasang %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Pasang Aplikasi</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Buka dalam %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Buka dalam aplikasi</string>
+    <string name="feed_browser_menu_item_open_with">Buka dengan …</string>
+    <string name="browser_zoom_in_button_description">Zum masuk</string>
+    <string name="browser_zoom_out_button_description">Zum keluar</string>
+    <string name="browser_close_button_description">Tutup pelayar</string>
+    <string name="browser_share_icon_description">Kongsi Kandungan</string>
+    <string name="browser_lite_location_permission_prompt">%1$s ingin menggunakan lokasi peranti anda.</string>
+    <string name="browser_lite_location_permission_allow">Benarkan</string>
+    <string name="browser_lite_location_permission_block">Sekat</string>
+    <string name="browser_add_platform_extension_description">Tambah Sambungan Platform</string>
+    <string name="browser_confirm_platform_extension_added_description">Sahkan Penambahan Sambungan Platform</string>
+</resources>

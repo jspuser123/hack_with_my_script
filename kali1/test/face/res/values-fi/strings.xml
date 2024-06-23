@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Lisää Liteen</string>
+    <string name="appupdate_notif_title_download_in_progress">Päivitystä ladataan</string>
+    <string name="feed_browser_more_options">Lisää vaihtoehtoja</string>
+    <string name="feed_browser_cannot_load_page">Sivua ei voi ladata</string>
+    <string name="browser_ssl_error_title">Turvallisuusvirhe</string>
+    <string name="browser_ssl_error_message">Tämän sivuston suojausvarmenteessa on ongelmia</string>
+    <string name="browser_ssl_error_positive_button_text">Takaisin</string>
+    <string name="feed_browser_menu_item_install_specific_app">Asenna %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Asenna sovellus</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Avaa sovelluksessa %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Avaa sovelluksessa</string>
+    <string name="feed_browser_menu_item_open_with">Avaa sovelluksella …</string>
+    <string name="browser_text_zoom_percentage_template">%1$d %%</string>
+    <string name="browser_zoom_in_button_description">Lähennä</string>
+    <string name="browser_zoom_out_button_description">Loitonna</string>
+    <string name="browser_close_button_description">Sulje selain</string>
+    <string name="browser_share_icon_description">Jaa sisältö</string>
+    <string name="browser_lite_location_permission_prompt">%1$s haluaa käyttää laitteesi sijaintia.</string>
+    <string name="browser_lite_location_permission_allow">Salli</string>
+    <string name="browser_lite_location_permission_block">Estä</string>
+    <string name="browser_add_platform_extension_description">Lisää alustalaajennus</string>
+    <string name="browser_confirm_platform_extension_added_description">Vahvista lisätty alustalaajennus</string>
+    <string name="common_google_play_services_unknown_issue">Tuntematon ongelma käytettäessä Google Play -palveluita.</string>
+</resources>

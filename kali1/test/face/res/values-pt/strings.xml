@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Adicionar ao Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Baixando atualização</string>
+    <string name="feed_browser_more_options">Mais opções</string>
+    <string name="feed_browser_cannot_load_page">A Página não pode ser carregada</string>
+    <string name="browser_ssl_error_title">Erro de segurança</string>
+    <string name="browser_ssl_error_message">Há problemas com o certificado de segurança desse site</string>
+    <string name="browser_ssl_error_positive_button_text">Voltar</string>
+    <string name="feed_browser_menu_item_install_specific_app">Instalar %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Instalar o aplicativo</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Abrir no %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Abrir no aplicativo</string>
+    <string name="feed_browser_menu_item_open_with">Abrir com …</string>
+    <string name="browser_zoom_in_button_description">Mais zoom</string>
+    <string name="browser_zoom_out_button_description">Menos zoom</string>
+    <string name="browser_close_button_description">Fechar navegador</string>
+    <string name="browser_share_icon_description">Compartilhar conteúdo</string>
+    <string name="browser_lite_location_permission_prompt">%1$s quer ter acesso à localização do seu dispositivo.</string>
+    <string name="browser_lite_location_permission_allow">Permitir</string>
+    <string name="browser_lite_location_permission_block">Bloquear</string>
+    <string name="browser_add_platform_extension_description">Adicionar extensão da plataforma</string>
+    <string name="browser_confirm_platform_extension_added_description">Confirmar extensão de plataforma adicionada</string>
+    <string name="common_google_play_services_unknown_issue">Problema desconhecido com o Google Play Services.</string>
+</resources>

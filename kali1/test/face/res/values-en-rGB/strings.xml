@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_menu_item_open_with">Open with…</string>
+    <string name="browser_share_icon_description">Share content</string>
+    <string name="browser_add_platform_extension_description">Add platform extension</string>
+    <string name="browser_confirm_platform_extension_added_description">Confirm added platform extension</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+</resources>

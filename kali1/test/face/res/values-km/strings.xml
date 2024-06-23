@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="browser_zoom_in_button_description">ពង្រីក</string>
+    <string name="browser_zoom_out_button_description">បង្រួម</string>
+    <string name="browser_lite_location_permission_allow">អនុញ្ញាត</string>
+    <string name="browser_lite_location_permission_block">ទប់ស្កាត់</string>
+</resources>

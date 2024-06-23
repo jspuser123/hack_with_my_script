@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_button_height">34.0dip</dimen>
+    <dimen name="soft_input_detection_min_height_dp">60.0dip</dimen>
+    <dimen name="custom_keyboard_layout_default_height">180.0dip</dimen>
+    <dimen name="multipicker_grid_spacing">4.5dip</dimen>
+    <dimen name="multipicker_bar_height">48.0dip</dimen>
+    <dimen name="multipicker_thumbnail_size">100.0dip</dimen>
+    <dimen name="multipicker_button_text_size">18.0sp</dimen>
+    <dimen name="multipicker_progress_bar_height">3.0dip</dimen>
+    <dimen name="gallery_video_item_overlay_padding">5.0dip</dimen>
+    <dimen name="video_duration_text_size">16.0sp</dimen>
+    <dimen name="fresco_progress_drawable_progress_bar_height">4.0dip</dimen>
+    <dimen name="textbox_edit_text_horizontal_padding">8.0dip</dimen>
+    <dimen name="textbox_edit_text_vertical_padding">4.0dip</dimen>
+    <dimen name="popup_video_view_size">200.0dip</dimen>
+    <dimen name="browser_chrome_height">48.0dip</dimen>
+    <dimen name="browser_progressbar_height">2.0dip</dimen>
+    <dimen name="navigation_popup_menu_row_height">48.0dip</dimen>
+    <dimen name="browser_menu_text_size">18.0sp</dimen>
+    <dimen name="browser_custom_menu_horizontal_padding">16.0dip</dimen>
+    <dimen name="browser_menu_divider_height">1.0dip</dimen>
+    <dimen name="browser_menu_popup_custom_width">240.0dip</dimen>
+    <dimen name="browser_menu_horizontal_padding">12.0dip</dimen>
+    <dimen name="browser_progress_overlay_height">2.0px</dimen>
+    <dimen name="instant_experience_chrome_height">24.0dip</dimen>
+    <dimen name="watch_and_browse_chrome_height">20.0dip</dimen>
+    <item type="dimen" name="APKTOOL_DUMMY_8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_10">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_11">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_12">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_1d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_1f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_20">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_21">false</item>
+</resources>

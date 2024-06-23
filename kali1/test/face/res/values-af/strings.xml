@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Voeg by Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Laai tans opdatering af</string>
+    <string name="feed_browser_more_options">Nog opsies</string>
+    <string name="feed_browser_cannot_load_page">Blad kan nie gelaai word nie</string>
+    <string name="browser_ssl_error_title">Sekuriteitsfout</string>
+    <string name="browser_ssl_error_message">Daar is probleme met die sekuriteitsertifikaat vir hierdie webwerf</string>
+    <string name="browser_ssl_error_positive_button_text">Gaan terug</string>
+    <string name="feed_browser_menu_item_install_specific_app">Installeer %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Installeer toepassing</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Maak in %1$s oop</string>
+    <string name="feed_browser_menu_item_open_with_app">Maak in toepassing oop</string>
+    <string name="feed_browser_menu_item_open_with">Maak met … oop</string>
+    <string name="browser_zoom_in_button_description">Zoem in</string>
+    <string name="browser_zoom_out_button_description">Zoem uit</string>
+    <string name="browser_close_button_description">Maak blaaier toe</string>
+    <string name="browser_share_icon_description">Deel inhoud</string>
+    <string name="browser_lite_location_permission_prompt">%1$s wil jou toestel se ligging gebruik.</string>
+    <string name="browser_lite_location_permission_allow">Laat toe</string>
+    <string name="browser_lite_location_permission_block">Blokkeer</string>
+    <string name="browser_add_platform_extension_description">Voeg platformuitbreiding by</string>
+    <string name="browser_confirm_platform_extension_added_description">Bevestig bygevoegdeplatform-uitbreiding</string>
+    <string name="common_google_play_services_unknown_issue">Onbekende probleem met Google Play-dienste.</string>
+</resources>

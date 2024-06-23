@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">Більше налаштувань</string>
+    <string name="feed_browser_cannot_load_page">Неможливо завантажити сторінку</string>
+    <string name="browser_ssl_error_title">Помилка безпеки</string>
+    <string name="browser_ssl_error_message">Із сертифікатом безпеки для цього сайту виникли проблеми</string>
+    <string name="browser_ssl_error_positive_button_text">Повернутися</string>
+    <string name="feed_browser_menu_item_install_specific_app">Установити %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Установити додаток</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Відкрити в %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Відкрити в додатку</string>
+    <string name="feed_browser_menu_item_open_with">Відкрити за допомогою...</string>
+    <string name="browser_zoom_in_button_description">Збільшити</string>
+    <string name="browser_zoom_out_button_description">Зменшити</string>
+    <string name="browser_close_button_description">Закрити браузер</string>
+    <string name="browser_share_icon_description">Поширити матеріали</string>
+    <string name="browser_lite_location_permission_prompt">%1$s хоче використовувати дані про місцезнаходження вашого пристрою.</string>
+    <string name="browser_lite_location_permission_allow">Дозволити</string>
+    <string name="browser_lite_location_permission_block">Заблокувати</string>
+    <string name="browser_add_platform_extension_description">Додайте розширення платформи</string>
+    <string name="browser_confirm_platform_extension_added_description">Підтвердьте додавання розширення для платформи</string>
+    <string name="common_google_play_services_unknown_issue">Невідома проблема із сервісами Google Play.</string>
+</resources>

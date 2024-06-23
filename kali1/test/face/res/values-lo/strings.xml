@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="browser_lite_location_permission_allow">ອະນຸຍາດ</string>
+    <string name="browser_lite_location_permission_block">ບລັອກ</string>
+</resources>

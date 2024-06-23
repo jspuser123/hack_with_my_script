@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/multipicker_button_text_size" android:textStyle="bold" android:textColor="@color/title_text_color" android:gravity="center" android:id="@id/upload_photo_text" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="@dimen/multipicker_bar_height" />
+        <com.facebook.lite.widget.HorizontalProgressBar android:layout_gravity="center|top" android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/multipicker_progress_bar_height" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <GridView android:id="@id/grid_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:horizontalSpacing="@dimen/multipicker_grid_spacing" android:verticalSpacing="@dimen/multipicker_grid_spacing" android:stretchMode="columnWidth" android:columnWidth="@dimen/multipicker_thumbnail_size" android:numColumns="auto_fit" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/multipicker_button_text_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/multipicker_next" android:background="@color/button_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/multipicker_bar_height" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="center" android:id="@id/loading" android:background="#88000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar" />
+    </RelativeLayout>
+</FrameLayout>

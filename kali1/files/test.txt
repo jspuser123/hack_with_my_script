@@ -1,0 +1,359 @@
+122.165.212.191Host is up (0.068s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 6 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+-   Hops 1-5 are the same as for 122.165.212.20
+6   59.86 ms abts-tn-static-001.212.165.122.airtelbroadband.in (122.165.212.1)
+
+Nmap scan report for abts-tn-static-003.212.165.122.airtelbroadband.in (122.165.212.3)
+Host is up (0.098s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    klone/2.4.0
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.0 401 Unauthorized
+|     WWW-Authenticate: Basic realm="NetJunior"
+|     Cache-Control: no-cache, must-revalidate
+|     Expires: Mon, 1 Jan 1990 05:00:00 GMT
+|     Pragma: no-cache
+|     <html><head></head><body>auth required</body></html>
+|   GenericLines: 
+|     HTTP/1.0 400 Bad Request
+|     Server: klone/2.4.0
+|     Date: Thu, 12 Oct 2017 12:25:42 GMT
+|     Cache-Control: no-cache, must-revalidate
+|     Expires: Mon, 1 Jan 1990 05:00:00 GMT
+|     Pragma: no-cache
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><title>400 Bad Request</title></head>
+|     <body><h1>Bad Request</h1><p>URL: </p><hr><address>KLone/2.4.0 web server - www.koanlogic.com</address></body></html>
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.0 400 Bad Request
+|     Server: klone/2.4.0
+|     Date: Thu, 12 Oct 2017 12:25:36 GMT
+|     Cache-Control: no-cache, must-revalidate
+|     Expires: Mon, 1 Jan 1990 05:00:00 GMT
+|     Pragma: no-cache
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><title>400 Bad Request</title></head>
+|_    <body><h1>Bad Request</h1><p>URL: </p><hr><address>KLone/2.4.0 web server - www.koanlogic.com</address></body></html>
+| http-auth: 
+| HTTP/1.0 401 Unauthorized\x0D
+|_  Basic realm=NetJunior
+|_http-server-header: klone/2.4.0
+|_http-title: Site doesn't have a title.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.60%I=7%D=10/12%Time=59DF5F3F%P=arm-unknown-linux-gnueabi
+SF:hf%r(GetRequest,E1,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenticat
+SF:e:\x20Basic\x20realm=\"NetJunior\"\r\nCache-Control:\x20no-cache,\x20mu
+SF:st-revalidate\r\nExpires:\x20Mon,\x201\x20Jan\x201990\x2005:00:00\x20GM
+SF:T\r\nPragma:\x20no-cache\r\n\r\n\n<html><head></head><body>auth\x20requ
+SF:ired</body></html>\n")%r(HTTPOptions,192,"HTTP/1\.0\x20400\x20Bad\x20Re
+SF:quest\r\nServer:\x20klone/2\.4\.0\r\nDate:\x20Thu,\x2012\x20Oct\x202017
+SF:\x2012:25:36\x20GMT\r\nCache-Control:\x20no-cache,\x20must-revalidate\r
+SF:\nExpires:\x20Mon,\x201\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x2
+SF:0no-cache\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\
+SF:x202\.0//EN\"><html><head><title>400\x20Bad\x20Request</title></head>\n
+SF:<body><h1>Bad\x20Request</h1><p>URL:\x20</p><hr><address>KLone/2\.4\.0\
+SF:x20web\x20server\x20-\x20www\.koanlogic\.com</address></body></html>")%
+SF:r(RTSPRequest,192,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nServer:\x20klo
+SF:ne/2\.4\.0\r\nDate:\x20Thu,\x2012\x20Oct\x202017\x2012:25:36\x20GMT\r\n
+SF:Cache-Control:\x20no-cache,\x20must-revalidate\r\nExpires:\x20Mon,\x201
+SF:\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x20no-cache\r\n\r\n<!DOCT
+SF:YPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\"><html><he
+SF:ad><title>400\x20Bad\x20Request</title></head>\n<body><h1>Bad\x20Reques
+SF:t</h1><p>URL:\x20</p><hr><address>KLone/2\.4\.0\x20web\x20server\x20-\x
+SF:20www\.koanlogic\.com</address></body></html>")%r(FourOhFourRequest,E1,
+SF:"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenticate:\x20Basic\x20real
+SF:m=\"NetJunior\"\r\nCache-Control:\x20no-cache,\x20must-revalidate\r\nEx
+SF:pires:\x20Mon,\x201\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x20no-
+SF:cache\r\n\r\n\n<html><head></head><body>auth\x20required</body></html>\
+SF:n")%r(GenericLines,192,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nServer:\x
+SF:20klone/2\.4\.0\r\nDate:\x20Thu,\x2012\x20Oct\x202017\x2012:25:42\x20GM
+SF:T\r\nCache-Control:\x20no-cache,\x20must-revalidate\r\nExpires:\x20Mon,
+SF:\x201\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x20no-cache\r\n\r\n<
+SF:!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\"><htm
+SF:l><head><title>400\x20Bad\x20Request</title></head>\n<body><h1>Bad\x20R
+SF:equest</h1><p>URL:\x20</p><hr><address>KLone/2\.4\.0\x20web\x20server\x
+SF:20-\x20www\.koanlogic\.com</address></body></html>");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|broadband router|firewall|WAP|router|storage-misc|terminal
+Running (JUST GUESSING): Linux 2.6.X|2.4.X|3.X (90%), Actiontec embedded (89%), Check Point embedded (89%), Cisco embedded (89%), HP embedded (86%), Wyse ThinOS (86%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:actiontec:gt701 cpe:/o:linux:linux_kernel:2.4.34 cpe:/o:linux:linux_kernel:2.6.32 cpe:/h:cisco:rv320 cpe:/h:hp:p2000_g3 cpe:/o:linux:linux_kernel:3.x cpe:/o:wyse:thinos
+Aggressive OS guesses: Linux 2.6.32 - 2.6.33 (90%), Actiontec GT701 DSL modem (89%), Check Point UTM-1 Edge X firewall (89%), DD-WRT v23 (Linux 2.4.34) (89%), DD-WRT v24-sp2 (Linux 2.4.36) (89%), Linux 2.6.23 (89%), Cisco RV320 router (Linux 2.6.32) (89%), Linux 2.6.36 (88%), HP P2000 G3 NAS device (86%), Check Point ZoneAlarm Z100G firewall (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT    ADDRESS
+-   Hops 1-2 are the same as for 122.165.212.20
+3   ... 30
+
+Nmap scan report for abts-tn-static-004.212.165.122.airtelbroadband.in (122.165.212.4)
+Host is up (0.14s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 7 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-6 are the same as for 122.165.212.20
+7   90.19 ms abts-tn-static-004.212.165.122.airtelbroadband.in (122.165.212.4)
+
+Nmap scan report for abts-tn-static-006.212.165.122.airtelbroadband.in (122.165.212.6)
+Host is up (0.082s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 7 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-6 are the same as for 122.165.212.20
+7   55.44 ms abts-tn-static-006.212.165.122.airtelbroadband.in (122.165.212.6)
+
+Nmap scan report for abts-tn-static-011.212.165.122.airtelbroadband.in (122.165.212.11)
+Host is up (0.099s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    klone/2.4.0
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.0 401 Unauthorized
+|     WWW-Authenticate: Basic realm="NetJunior"
+|     Cache-Control: no-cache, must-revalidate
+|     Expires: Mon, 1 Jan 1990 05:00:00 GMT
+|     Pragma: no-cache
+|     <html><head></head><body>auth required</body></html>
+|   GenericLines: 
+|     HTTP/1.0 400 Bad Request
+|     Server: klone/2.4.0
+|     Date: Thu, 12 Oct 2017 12:25:42 GMT
+|     Cache-Control: no-cache, must-revalidate
+|     Expires: Mon, 1 Jan 1990 05:00:00 GMT
+|     Pragma: no-cache
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><title>400 Bad Request</title></head>
+|     <body><h1>Bad Request</h1><p>URL: </p><hr><address>KLone/2.4.0 web server - www.koanlogic.com</address></body></html>
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.0 400 Bad Request
+|     Server: klone/2.4.0
+|     Date: Thu, 12 Oct 2017 12:25:36 GMT
+|     Cache-Control: no-cache, must-revalidate
+|     Expires: Mon, 1 Jan 1990 05:00:00 GMT
+|     Pragma: no-cache
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><title>400 Bad Request</title></head>
+|_    <body><h1>Bad Request</h1><p>URL: </p><hr><address>KLone/2.4.0 web server - www.koanlogic.com</address></body></html>
+|_http-server-header: klone/2.4.0
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.60%I=7%D=10/12%Time=59DF5F3F%P=arm-unknown-linux-gnueabi
+SF:hf%r(GetRequest,E1,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenticat
+SF:e:\x20Basic\x20realm=\"NetJunior\"\r\nCache-Control:\x20no-cache,\x20mu
+SF:st-revalidate\r\nExpires:\x20Mon,\x201\x20Jan\x201990\x2005:00:00\x20GM
+SF:T\r\nPragma:\x20no-cache\r\n\r\n\n<html><head></head><body>auth\x20requ
+SF:ired</body></html>\n")%r(HTTPOptions,192,"HTTP/1\.0\x20400\x20Bad\x20Re
+SF:quest\r\nServer:\x20klone/2\.4\.0\r\nDate:\x20Thu,\x2012\x20Oct\x202017
+SF:\x2012:25:36\x20GMT\r\nCache-Control:\x20no-cache,\x20must-revalidate\r
+SF:\nExpires:\x20Mon,\x201\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x2
+SF:0no-cache\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\
+SF:x202\.0//EN\"><html><head><title>400\x20Bad\x20Request</title></head>\n
+SF:<body><h1>Bad\x20Request</h1><p>URL:\x20</p><hr><address>KLone/2\.4\.0\
+SF:x20web\x20server\x20-\x20www\.koanlogic\.com</address></body></html>")%
+SF:r(RTSPRequest,192,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nServer:\x20klo
+SF:ne/2\.4\.0\r\nDate:\x20Thu,\x2012\x20Oct\x202017\x2012:25:36\x20GMT\r\n
+SF:Cache-Control:\x20no-cache,\x20must-revalidate\r\nExpires:\x20Mon,\x201
+SF:\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x20no-cache\r\n\r\n<!DOCT
+SF:YPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\"><html><he
+SF:ad><title>400\x20Bad\x20Request</title></head>\n<body><h1>Bad\x20Reques
+SF:t</h1><p>URL:\x20</p><hr><address>KLone/2\.4\.0\x20web\x20server\x20-\x
+SF:20www\.koanlogic\.com</address></body></html>")%r(FourOhFourRequest,E1,
+SF:"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenticate:\x20Basic\x20real
+SF:m=\"NetJunior\"\r\nCache-Control:\x20no-cache,\x20must-revalidate\r\nEx
+SF:pires:\x20Mon,\x201\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x20no-
+SF:cache\r\n\r\n\n<html><head></head><body>auth\x20required</body></html>\
+SF:n")%r(GenericLines,192,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nServer:\x
+SF:20klone/2\.4\.0\r\nDate:\x20Thu,\x2012\x20Oct\x202017\x2012:25:42\x20GM
+SF:T\r\nCache-Control:\x20no-cache,\x20must-revalidate\r\nExpires:\x20Mon,
+SF:\x201\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x20no-cache\r\n\r\n<
+SF:!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\"><htm
+SF:l><head><title>400\x20Bad\x20Request</title></head>\n<body><h1>Bad\x20R
+SF:equest</h1><p>URL:\x20</p><hr><address>KLone/2\.4\.0\x20web\x20server\x
+SF:20-\x20www\.koanlogic\.com</address></body></html>");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|broadband router|firewall|WAP|router|storage-misc|terminal
+Running (JUST GUESSING): Linux 2.6.X|2.4.X|3.X (90%), Actiontec embedded (89%), Check Point embedded (89%), Cisco embedded (87%), Wyse ThinOS (86%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:actiontec:gt701 cpe:/o:linux:linux_kernel:2.4.34 cpe:/o:linux:linux_kernel:2.6.32 cpe:/h:cisco:rv320 cpe:/o:linux:linux_kernel:3.x cpe:/o:wyse:thinos
+Aggressive OS guesses: Linux 2.6.32 - 2.6.33 (90%), Linux 2.6.36 (90%), Actiontec GT701 DSL modem (89%), Check Point UTM-1 Edge X firewall (89%), DD-WRT v23 (Linux 2.4.34) (89%), Check Point ZoneAlarm Z100G firewall (88%), DD-WRT v24-sp2 (Linux 2.4.36) (87%), Linux 2.6.23 (87%), Cisco RV320 router (Linux 2.6.32) (87%), Linux 2.6.31 (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT    ADDRESS
+-   Hops 1-2 are the same as for 122.165.212.20
+3   ... 30
+
+Nmap scan report for abts-tn-static-018.212.165.122.airtelbroadband.in (122.165.212.18)
+Host is up (0.083s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 7 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-6 are the same as for 122.165.212.20
+7   62.62 ms abts-tn-static-018.212.165.122.airtelbroadband.in (122.165.212.18)
+
+Nmap scan report for abts-tn-static-020.212.165.122.airtelbroadband.in (122.165.212.20)
+Host is up (0.12s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 7 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   ...
+2   98.65 ms  10.0.66.57
+3   67.01 ms  125.17.180.201
+4   111.67 ms 182.79.175.163
+5   92.95 ms  125.17.38.58
+6   69.18 ms  abts-tn-static-210.227.95.61.airtelbroadband.in (61.95.227.210)
+7   110.65 ms abts-tn-static-020.212.165.122.airtelbroadband.in (122.165.212.20)
+
+Nmap scan report for abts-tn-static-021.212.165.122.airtelbroadband.in (122.165.212.21)
+Host is up (0.10s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    klone/2.4.0
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest: 
+|     HTTP/1.0 401 Unauthorized
+|     WWW-Authenticate: Basic realm="NetJunior"
+|     Cache-Control: no-cache, must-revalidate
+|     Expires: Mon, 1 Jan 1990 05:00:00 GMT
+|     Pragma: no-cache
+|     <html><head></head><body>auth required</body></html>
+|   GenericLines: 
+|     HTTP/1.0 400 Bad Request
+|     Server: klone/2.4.0
+|     Date: Thu, 12 Oct 2017 12:25:42 GMT
+|     Cache-Control: no-cache, must-revalidate
+|     Expires: Mon, 1 Jan 1990 05:00:00 GMT
+|     Pragma: no-cache
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><title>400 Bad Request</title></head>
+|     <body><h1>Bad Request</h1><p>URL: </p><hr><address>KLone/2.4.0 web server - www.koanlogic.com</address></body></html>
+|   HTTPOptions, RTSPRequest: 
+|     HTTP/1.0 400 Bad Request
+|     Server: klone/2.4.0
+|     Date: Thu, 12 Oct 2017 12:25:36 GMT
+|     Cache-Control: no-cache, must-revalidate
+|     Expires: Mon, 1 Jan 1990 05:00:00 GMT
+|     Pragma: no-cache
+|     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><title>400 Bad Request</title></head>
+|_    <body><h1>Bad Request</h1><p>URL: </p><hr><address>KLone/2.4.0 web server - www.koanlogic.com</address></body></html>
+| http-auth: 
+| HTTP/1.0 401 Unauthorized\x0D
+|_  Basic realm=NetJunior
+|_http-server-header: klone/2.4.0
+|_http-title: Site doesn't have a title.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.60%I=7%D=10/12%Time=59DF5F3F%P=arm-unknown-linux-gnueabi
+SF:hf%r(GetRequest,E1,"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenticat
+SF:e:\x20Basic\x20realm=\"NetJunior\"\r\nCache-Control:\x20no-cache,\x20mu
+SF:st-revalidate\r\nExpires:\x20Mon,\x201\x20Jan\x201990\x2005:00:00\x20GM
+SF:T\r\nPragma:\x20no-cache\r\n\r\n\n<html><head></head><body>auth\x20requ
+SF:ired</body></html>\n")%r(HTTPOptions,192,"HTTP/1\.0\x20400\x20Bad\x20Re
+SF:quest\r\nServer:\x20klone/2\.4\.0\r\nDate:\x20Thu,\x2012\x20Oct\x202017
+SF:\x2012:25:36\x20GMT\r\nCache-Control:\x20no-cache,\x20must-revalidate\r
+SF:\nExpires:\x20Mon,\x201\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x2
+SF:0no-cache\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\
+SF:x202\.0//EN\"><html><head><title>400\x20Bad\x20Request</title></head>\n
+SF:<body><h1>Bad\x20Request</h1><p>URL:\x20</p><hr><address>KLone/2\.4\.0\
+SF:x20web\x20server\x20-\x20www\.koanlogic\.com</address></body></html>")%
+SF:r(RTSPRequest,192,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nServer:\x20klo
+SF:ne/2\.4\.0\r\nDate:\x20Thu,\x2012\x20Oct\x202017\x2012:25:36\x20GMT\r\n
+SF:Cache-Control:\x20no-cache,\x20must-revalidate\r\nExpires:\x20Mon,\x201
+SF:\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x20no-cache\r\n\r\n<!DOCT
+SF:YPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\"><html><he
+SF:ad><title>400\x20Bad\x20Request</title></head>\n<body><h1>Bad\x20Reques
+SF:t</h1><p>URL:\x20</p><hr><address>KLone/2\.4\.0\x20web\x20server\x20-\x
+SF:20www\.koanlogic\.com</address></body></html>")%r(FourOhFourRequest,E1,
+SF:"HTTP/1\.0\x20401\x20Unauthorized\r\nWWW-Authenticate:\x20Basic\x20real
+SF:m=\"NetJunior\"\r\nCache-Control:\x20no-cache,\x20must-revalidate\r\nEx
+SF:pires:\x20Mon,\x201\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x20no-
+SF:cache\r\n\r\n\n<html><head></head><body>auth\x20required</body></html>\
+SF:n")%r(GenericLines,192,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nServer:\x
+SF:20klone/2\.4\.0\r\nDate:\x20Thu,\x2012\x20Oct\x202017\x2012:25:42\x20GM
+SF:T\r\nCache-Control:\x20no-cache,\x20must-revalidate\r\nExpires:\x20Mon,
+SF:\x201\x20Jan\x201990\x2005:00:00\x20GMT\r\nPragma:\x20no-cache\r\n\r\n<
+SF:!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN\"><htm
+SF:l><head><title>400\x20Bad\x20Request</title></head>\n<body><h1>Bad\x20R
+SF:equest</h1><p>URL:\x20</p><hr><address>KLone/2\.4\.0\x20web\x20server\x
+SF:20-\x20www\.koanlogic\.com</address></body></html>");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|broadband router|firewall|WAP|router|storage-misc|terminal
+Running (JUST GUESSING): Linux 2.6.X|2.4.X|3.X (90%), Actiontec embedded (89%), Check Point embedded (89%), Cisco embedded (89%), Wyse ThinOS (86%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:actiontec:gt701 cpe:/o:linux:linux_kernel:2.4.34 cpe:/o:linux:linux_kernel:2.6.32 cpe:/h:cisco:rv320 cpe:/o:linux:linux_kernel:3.x cpe:/o:wyse:thinos
+Aggressive OS guesses: Linux 2.6.32 - 2.6.33 (90%), Actiontec GT701 DSL modem (89%), Check Point UTM-1 Edge X firewall (89%), DD-WRT v23 (Linux 2.4.34) (89%), DD-WRT v24-sp2 (Linux 2.4.36) (89%), Linux 2.6.23 (89%), Cisco RV320 router (Linux 2.6.32) (89%), Linux 2.6.36 (88%), Check Point ZoneAlarm Z100G firewall (86%), Linux 2.6.31 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 7 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+-   Hops 1-6 are the same as for 122.165.212.20
+7   104.66 ms abts-tn-static-021.212.165.122.airtelbroadband.in (122.165.212.21)
+
+Nmap scan report for abts-tn-static-024.212.165.122.airtelbroadband.in (122.165.212.24)
+Host is up (0.10s latency).
+
+PORT   STATE    SERVICE VERSION
+80/tcp filtered http
+Too many fingerprints match this host to give specific OS details
+Network Distance: 8 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-6 are the same as for 122.165.212.20
+7   ...
+8   84.34 ms abts-tn-static-024.212.165.122.airtelbroadband.in (122.165.212.24)
+
+Nmap scan report for abts-tn-static-029.212.165.122.airtelbroadband.in (122.165.212.29)
+Host is up (0.080s latency).
+
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+Too many fingerprints match this host to give specific OS details
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT    ADDRESS
+-   Hops 1-2 are the same as for 122.165.212.20
+3   ... 30
+
+Nmap scan report for abts-tn-static-045.212.165.122.airtelbroadband.in (122.165.212.45)
+Host is up (0.097s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Dahua webcam httpd
+|_http-title: CPPLUS DVR \xE2\x80\x93Web View
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.2 - 3.8 (94%), Tomato 1.27 - 1.28 (Linux 2.4.20) (94%), Linux 2.6.18 - 2.6.22 (93%), MikroTik RouterOS 6.15 (Linux 3.3.5) (93%), MikroTik RouterOS 6.30 (92%), Linux 2.6.32 - 2.6.39 (91%), HP P2000 G3 NAS device (91%), DD-WRT v24 or v30 (Linux 3.10) (90%), Linux 3.2 - 3.16 (90%), Linux 2.6.32 - 3.10 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 7 hops
+Service Info: Device: webcam
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+-   Hops 1-6 are the same as for 122.165.212.20
+7   89.11 ms abts-tn-static-045.212.165.122.airtelbroadband.in (122.165.212.45)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 50 IP addresses (11 hosts up) scanned in 201.01 seconds
+root@localhost:~# 
+

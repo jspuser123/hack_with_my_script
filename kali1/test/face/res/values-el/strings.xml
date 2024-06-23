@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Προσθήκη στο Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Λήψη ενημέρωσης...</string>
+    <string name="feed_browser_more_options">Περισσότερες επιλογές</string>
+    <string name="feed_browser_cannot_load_page">Η Σελίδα δεν φορτώνεται</string>
+    <string name="browser_ssl_error_title">Σφάλμα σχετικό με την ασφάλεια</string>
+    <string name="browser_ssl_error_message">Υπάρχουν προβλήματα με το πιστοποιητικό ασφαλείας αυτού του ιστότοπου</string>
+    <string name="browser_ssl_error_positive_button_text">Πίσω</string>
+    <string name="feed_browser_menu_item_install_specific_app">Εγκατάσταση της εφαρμογής %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Εγκατάσταση εφαρμογής</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Άνοιγμα στο %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Άνοιγμα με την εφαρμογή</string>
+    <string name="feed_browser_menu_item_open_with">Άνοιγμα με …</string>
+    <string name="browser_zoom_in_button_description">Μεγέθυνση</string>
+    <string name="browser_zoom_out_button_description">Σμίκρυνση</string>
+    <string name="browser_close_button_description">Κλείσιμο προγράμματος περιήγησης</string>
+    <string name="browser_share_icon_description">Κοινοποίηση περιεχομένου</string>
+    <string name="browser_lite_location_permission_prompt">Ο τομέας %1$s θέλει να χρησιμοποιήσει την τοποθεσία της συσκευής σας.</string>
+    <string name="browser_lite_location_permission_allow">Αποδοχή</string>
+    <string name="browser_lite_location_permission_block">Μπλοκάρισμα</string>
+    <string name="browser_add_platform_extension_description">Προσθήκη προέκτασης πλατφόρμας</string>
+    <string name="browser_confirm_platform_extension_added_description">Επιβεβαίωση προσθήκης επέκτασης πλατφόρμας</string>
+    <string name="common_google_play_services_unknown_issue">Άγνωστο πρόβλημα με τις υπηρεσίες Google Play.</string>
+</resources>

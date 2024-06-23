@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">লাইটে যোগ করুন</string>
+    <string name="appupdate_notif_title_download_in_progress">আপডেট ডাউনলোড করা হচ্ছে</string>
+    <string name="feed_browser_more_options">আরো বিকল্পসমূহ</string>
+    <string name="feed_browser_cannot_load_page">পৃষ্ঠা লোড করা যাবে না</string>
+    <string name="browser_ssl_error_title">নিরাপত্তা ত্রুটি</string>
+    <string name="browser_ssl_error_message">এই সাইটের ক্ষেত্রে নিরাপত্তা শংসাপত্র জনিত সমস্যা রয়েছে</string>
+    <string name="browser_ssl_error_positive_button_text">ফেরত যান</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$s ইনস্টল করুন</string>
+    <string name="feed_browser_menu_item_install_app">অ্যাপ ইনস্টল করুন</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$s এ খুলুন</string>
+    <string name="feed_browser_menu_item_open_with_app">অ্যাপে খুলুন</string>
+    <string name="feed_browser_menu_item_open_with">… এর সাথে খুলুন</string>
+    <string name="browser_zoom_in_button_description">বড় করুন</string>
+    <string name="browser_zoom_out_button_description">ছোট করুন</string>
+    <string name="browser_close_button_description">ব্রাউজার বন্ধ করুন</string>
+    <string name="browser_share_icon_description">সামগ্রী শেয়ার করুন</string>
+    <string name="browser_lite_location_permission_prompt">%1$s আপনার ডিভাইসের অবস্থান ব্যবহার করতে চাইছে।</string>
+    <string name="browser_lite_location_permission_allow">অনুমতি দিন</string>
+    <string name="browser_lite_location_permission_block">ব্লক করুন</string>
+    <string name="browser_add_platform_extension_description">প্ল্যাটফর্ম প্রসার যোগ করুন</string>
+    <string name="browser_confirm_platform_extension_added_description">যোগ করা মঞ্চ প্রসারণ নিশ্চিত করুন</string>
+</resources>

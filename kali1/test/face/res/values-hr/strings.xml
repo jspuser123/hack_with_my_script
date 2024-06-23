@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Dodaj u Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Preuzimanje ažuriranja</string>
+    <string name="feed_browser_more_options">Više opcija</string>
+    <string name="feed_browser_cannot_load_page">Učitavanje stranice nije uspjelo</string>
+    <string name="browser_ssl_error_title">Sigurnosna pogreška</string>
+    <string name="browser_ssl_error_message">Postoje problemi sa sigurnosnim certifikatom ovog web-mjesta</string>
+    <string name="browser_ssl_error_positive_button_text">Natrag</string>
+    <string name="feed_browser_menu_item_install_specific_app">Instaliraj %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Instalirajte aplikaciju</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Otvori u aplikaciji %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Otvori u aplikaciji</string>
+    <string name="feed_browser_menu_item_open_with">Otvori u aplikaciji...</string>
+    <string name="browser_text_zoom_percentage_template">%1$d %%</string>
+    <string name="browser_zoom_in_button_description">Približi</string>
+    <string name="browser_zoom_out_button_description">Odmakni</string>
+    <string name="browser_close_button_description">Zatvori preglednik</string>
+    <string name="browser_share_icon_description">Podijeli sadržaj</string>
+    <string name="browser_lite_location_permission_prompt">%1$s želi upotrijebiti lokaciju vašeg uređaja.</string>
+    <string name="browser_lite_location_permission_allow">Dopusti</string>
+    <string name="browser_lite_location_permission_block">Blokiraj</string>
+    <string name="browser_add_platform_extension_description">Dodajte proširenje platforme</string>
+    <string name="browser_confirm_platform_extension_added_description">Potvrdi proširenje za dodanu platformu</string>
+    <string name="common_google_play_services_unknown_issue">Nepoznata poteškoća s uslugama za Google Play.</string>
+</resources>

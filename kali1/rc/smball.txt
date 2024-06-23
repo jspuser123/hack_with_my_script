@@ -1,0 +1,18 @@
+services -p 445 -R
+
+exploit/windows/dcerpc/ms03_026_dcom
+
+exploit/windows/smb/ms08_067_netapi
+
+exploit/windows/smb/ms06_040_netapi
+
+auxiliary/dos/windows/smb/ms10_006_negotiate_response_loop
+exploit/windows/smb/psexec
+
+exploit/windows/smb/ms05_039_pnp
+
+use auxiliary/scanner/smb/smb_ms17_010
+
+use exploit/windows/smb/
+
+use exploit/windows/smb/smb_ms17_010_etarnalblue

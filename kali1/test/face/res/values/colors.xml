@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff3366cc</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="light_gray">#ffd3d3d3</color>
+    <color name="dark_blue">#ff2b4288</color>
+    <color name="light_grayish_blue">#ffe2e6f0</color>
+    <color name="darker_blue">#ff0e2d5f</color>
+    <color name="title_text_color">#ffb8bcc6</color>
+    <color name="button_bg_color">#ff4a515c</color>
+    <color name="camera_icon_bg_color">#ff2c333a</color>
+    <color name="contact_list_divider_color">#ffd7dde1</color>
+    <color name="contact_list_head_bg_color">#ffeceff3</color>
+    <color name="contact_list_head_text_color">#ff8c93a5</color>
+    <color name="contact_list_item_text_color">#ff3a404c</color>
+    <color name="empty_image_border">#ffdde4ee</color>
+    <color name="empty_image_fill">#fff0f1f2</color>
+    <color name="mention_highlight">#ff65729a</color>
+    <color name="gallery_video_item_overlay_bg">#88000000</color>
+    <color name="swipe_refresh_color">#ff3b5998</color>
+    <color name="disabled_multipicker_item_overlay_color">#80000000</color>
+    <color name="gray_alpha_touch_feedback">#22000000</color>
+    <color name="gray_alpha_touch_feedback_ripple">#44000000</color>
+    <color name="default_background">#ff3b5998</color>
+    <color name="native_login_progress_background">#ff6b81b1</color>
+    <color name="fresco_placeholder_drawable_background">#ffe9ebee</color>
+    <color name="fresco_progress_drawable_background">#ffdddfe2</color>
+    <color name="fresco_progress_drawable_foreground">#ffbec2c9</color>
+    <color name="browser_chrome_text_color">#ff689afe</color>
+    <color name="browser_more_menu_tint">#ff6a7180</color>
+    <color name="browser_more_menu_text_color">#ff373e4d</color>
+    <color name="browser_more_menu_divider_color">#ffdcdee3</color>
+    <color name="browser_close_button_tint">#ff6a7180</color>
+    <color name="browser_burd_url_bar_foreground_color">#ff9daccb</color>
+    <color name="browser_title_text_color">#ff000000</color>
+    <color name="browser_subtitle_text_color">#7f000000</color>
+    <color name="click_background">#33141823</color>
+    <color name="browser_alternative_subtitle_color">#ff8a9ccd</color>
+    <color name="browser_progress_bar_color">#1a000000</color>
+    <color name="browser_menu_item_inactive_color">#ff898c96</color>
+    <color name="solid_white">#ffffffff</color>
+    <item type="color" name="APKTOOL_DUMMY_5">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1c">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1d">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1e">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1f">false</item>
+    <item type="color" name="APKTOOL_DUMMY_20">false</item>
+    <item type="color" name="APKTOOL_DUMMY_21">false</item>
+    <item type="color" name="APKTOOL_DUMMY_22">false</item>
+    <item type="color" name="APKTOOL_DUMMY_23">false</item>
+</resources>

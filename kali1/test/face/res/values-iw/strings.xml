@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">הוסף/הוסיפי ל-Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">מוריד עדכון</string>
+    <string name="feed_browser_more_options">אפשרויות נוספות</string>
+    <string name="feed_browser_cannot_load_page">לא ניתן לטעון את הדף</string>
+    <string name="browser_ssl_error_title">שגיאת אבטחה</string>
+    <string name="browser_ssl_error_message">יש בעיות באישור האבטחה של אתר זה</string>
+    <string name="browser_ssl_error_positive_button_text">חזרה</string>
+    <string name="feed_browser_menu_item_install_specific_app">התקן את %1$s</string>
+    <string name="feed_browser_menu_item_install_app">התקנת אפליקציה</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">פתח/י ב-%1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">פתיחה באפליקציה</string>
+    <string name="feed_browser_menu_item_open_with">לפתוח עם...</string>
+    <string name="browser_text_zoom_percentage_template">%%%1$d</string>
+    <string name="browser_zoom_in_button_description">הגדלה</string>
+    <string name="browser_zoom_out_button_description">הקטנה</string>
+    <string name="browser_close_button_description">סגור/סגרי דפדפן</string>
+    <string name="browser_share_icon_description">שתף/שתפי תוכן</string>
+    <string name="browser_lite_location_permission_prompt">%1$s רוצה להשתמש במיקום של המכשיר שלך.</string>
+    <string name="browser_lite_location_permission_allow">אפשר/י</string>
+    <string name="browser_lite_location_permission_block">חסום/חסמי</string>
+    <string name="browser_add_platform_extension_description">הוסף/הוסיפי תוספת פלטפורמה</string>
+    <string name="browser_confirm_platform_extension_added_description">אשר/י את הרחבת הפלטפורמה שנוספה</string>
+    <string name="common_google_play_services_unknown_issue">‏בעיה לא ידועה בשירותי Google Play.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">Vairāk iespēju</string>
+    <string name="browser_ssl_error_positive_button_text">Atgriezties</string>
+    <string name="feed_browser_menu_item_install_app">Instalēt aplikāciju</string>
+    <string name="browser_zoom_in_button_description">Pietuvināt</string>
+    <string name="browser_lite_location_permission_block">Bloķēt</string>
+    <string name="common_google_play_services_unknown_issue">Nezināma problēma ar Google Play pakalpojumiem.</string>
+</resources>

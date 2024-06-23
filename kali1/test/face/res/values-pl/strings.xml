@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Dodaj do Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Pobieranie aktualizacji</string>
+    <string name="feed_browser_more_options">Więcej opcji</string>
+    <string name="feed_browser_cannot_load_page">Nie można załadować strony</string>
+    <string name="browser_ssl_error_title">Błąd zabezpieczeń</string>
+    <string name="browser_ssl_error_message">Wystąpiły problemy z certyfikatem zabezpieczeń dla tej witryny</string>
+    <string name="browser_ssl_error_positive_button_text">Powrót</string>
+    <string name="feed_browser_menu_item_install_specific_app">Zainstaluj aplikację %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Zainstaluj aplikację</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Otwórz w aplikacji %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Otwórz w aplikacji</string>
+    <string name="feed_browser_menu_item_open_with">Otwórz w aplikacji …</string>
+    <string name="browser_zoom_in_button_description">Przybliż</string>
+    <string name="browser_zoom_out_button_description">Oddal</string>
+    <string name="browser_close_button_description">Zamknij przeglądarkę</string>
+    <string name="browser_share_icon_description">Udostępnij materiały</string>
+    <string name="browser_lite_location_permission_prompt">%1$s chce korzystać z informacji na temat lokalizacji Twojego urządzenia.</string>
+    <string name="browser_lite_location_permission_allow">Zezwól</string>
+    <string name="browser_lite_location_permission_block">Blokuj</string>
+    <string name="browser_add_platform_extension_description">Dodaj rozszerzenie platformy</string>
+    <string name="browser_confirm_platform_extension_added_description">Potwierdź dodanie rozszerzenia platformy</string>
+    <string name="common_google_play_services_unknown_issue">Nieznany problem z Usługami Google Play.</string>
+</resources>

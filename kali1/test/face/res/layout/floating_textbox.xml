@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/floating_textbox_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/floating_textbox_tool_bar" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/floating_textbox_right_button" android:background="@android:color/transparent" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/toolbar_button_height" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/floating_textbox_wrapper" android:background="@drawable/floating_text_box_background" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/floating_textbox_tool_bar">
+        <EditText android:textColor="@android:color/black" android:id="@id/floating_textbox_edit_text" android:background="@null" android:paddingLeft="@dimen/textbox_edit_text_horizontal_padding" android:paddingTop="@dimen/textbox_edit_text_vertical_padding" android:paddingRight="@dimen/textbox_edit_text_horizontal_padding" android:paddingBottom="@dimen/textbox_edit_text_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cursorVisible="true" />
+        <ImageView android:gravity="center_vertical" android:layout_gravity="end|bottom|center" android:id="@id/floating_textbox_inline_button" android:paddingLeft="@dimen/textbox_edit_text_horizontal_padding" android:paddingTop="@dimen/textbox_edit_text_vertical_padding" android:paddingRight="@dimen/textbox_edit_text_horizontal_padding" android:paddingBottom="@dimen/textbox_edit_text_vertical_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout android:background="@drawable/floating_text_box_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/floating_textbox_wrapper">
+        <TextView android:textColor="@color/contact_list_head_text_color" android:gravity="center|left" android:id="@id/floating_contact_list_suggestions" android:background="@color/contact_list_head_bg_color" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentTop="true" />
+        <ListView android:id="@id/floating_textbox_contact_list" android:background="@color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@color/contact_list_divider_color" android:dividerHeight="1.0dip" android:layout_below="@id/floating_contact_list_suggestions" />
+    </RelativeLayout>
+</RelativeLayout>

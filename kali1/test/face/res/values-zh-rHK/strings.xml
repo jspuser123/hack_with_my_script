@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">新增到 Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">正在下載更新</string>
+    <string name="feed_browser_more_options">更多選項</string>
+    <string name="feed_browser_cannot_load_page">無法載入專頁</string>
+    <string name="browser_ssl_error_title">安全性錯誤</string>
+    <string name="browser_ssl_error_message">這個網站的安全性憑證有問題</string>
+    <string name="browser_ssl_error_positive_button_text">返回</string>
+    <string name="feed_browser_menu_item_install_specific_app">安裝%1$s</string>
+    <string name="feed_browser_menu_item_install_app">安裝應用程式</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">在%1$s中開啟</string>
+    <string name="feed_browser_menu_item_open_with_app">在應用程式中開啟</string>
+    <string name="feed_browser_menu_item_open_with">使用…開啟</string>
+    <string name="browser_zoom_in_button_description">放大</string>
+    <string name="browser_zoom_out_button_description">縮小</string>
+    <string name="browser_close_button_description">關閉瀏覽器</string>
+    <string name="browser_share_icon_description">分享內容</string>
+    <string name="browser_lite_location_permission_prompt">%1$s想使用你的裝置地點。</string>
+    <string name="browser_lite_location_permission_allow">允許</string>
+    <string name="browser_lite_location_permission_block">封鎖</string>
+    <string name="browser_add_platform_extension_description">新增平台擴充套件</string>
+    <string name="browser_confirm_platform_extension_added_description">確認已新增平台擴充套件</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 服務出現不明問題。</string>
+</resources>

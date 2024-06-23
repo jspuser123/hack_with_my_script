@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Добавить в Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Скачивание обновления</string>
+    <string name="feed_browser_more_options">Дополнительные настройки</string>
+    <string name="feed_browser_cannot_load_page">Невозможно загрузить Страницу</string>
+    <string name="browser_ssl_error_title">Ошибка безопасности</string>
+    <string name="browser_ssl_error_message">Проблема с сертификатом безопасности для этого сайта</string>
+    <string name="browser_ssl_error_positive_button_text">Назад</string>
+    <string name="feed_browser_menu_item_install_specific_app">Установить приложение «%1$s»</string>
+    <string name="feed_browser_menu_item_install_app">Установить приложение</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Открыть в %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Открыть в приложении</string>
+    <string name="feed_browser_menu_item_open_with">Открыть с помощью …</string>
+    <string name="browser_zoom_in_button_description">Увеличить</string>
+    <string name="browser_zoom_out_button_description">Уменьшить</string>
+    <string name="browser_close_button_description">Закрыть браузер</string>
+    <string name="browser_share_icon_description">Поделиться материалами</string>
+    <string name="browser_lite_location_permission_prompt">%1$s хочет использовать геоданные вашего устройства.</string>
+    <string name="browser_lite_location_permission_allow">Разрешить</string>
+    <string name="browser_lite_location_permission_block">Заблокировать</string>
+    <string name="browser_add_platform_extension_description">Добавить расширение для платформы</string>
+    <string name="browser_confirm_platform_extension_added_description">Подтвердите добавление расширения для платформы</string>
+    <string name="common_google_play_services_unknown_issue">Неизвестная ошибка с Сервисами Google Play.</string>
+</resources>

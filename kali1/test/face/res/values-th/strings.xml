@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">เพิ่มใน Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">กำลังดาวน์โหลดอัพเดต</string>
+    <string name="feed_browser_more_options">ตัวเลือกเพิ่มเติม</string>
+    <string name="feed_browser_cannot_load_page">ไม่สามารถโหลดเพจ</string>
+    <string name="browser_ssl_error_title">ข้อผิดพลาดเกี่ยวกับความปลอดภัย</string>
+    <string name="browser_ssl_error_message">เกิดปัญหาขึ้นกับใบรับรองความปลอดภัยของไซต์นี้</string>
+    <string name="browser_ssl_error_positive_button_text">ย้อนกลับไป</string>
+    <string name="feed_browser_menu_item_install_specific_app">ติดตั้ง %1$s</string>
+    <string name="feed_browser_menu_item_install_app">ติดตั้งแอพ</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">เปิดใน %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">เปิดในแอพ</string>
+    <string name="feed_browser_menu_item_open_with">เปิดกับ …</string>
+    <string name="browser_zoom_in_button_description">ขยาย</string>
+    <string name="browser_zoom_out_button_description">ย่อ</string>
+    <string name="browser_close_button_description">ปิดบราวเซอร์</string>
+    <string name="browser_share_icon_description">แชร์เนื้อหา</string>
+    <string name="browser_lite_location_permission_prompt">%1$s ต้องการใช้ตำแหน่งที่ตั้งของอุปกรณ์คุณ</string>
+    <string name="browser_lite_location_permission_allow">อนุญาต</string>
+    <string name="browser_lite_location_permission_block">บล็อก</string>
+    <string name="browser_add_platform_extension_description">เพิ่มส่วนขยายแพลตฟอร์ม</string>
+    <string name="browser_confirm_platform_extension_added_description">ยืนยันส่วนขยายแพลตฟอร์มที่เพิ่มแล้ว</string>
+    <string name="common_google_play_services_unknown_issue">ปัญหาที่ไม่รู้จักของบริการ Google Play</string>
+</resources>

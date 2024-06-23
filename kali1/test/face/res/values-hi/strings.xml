@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Lite में जोड़ें</string>
+    <string name="appupdate_notif_title_download_in_progress">अपडेट डाउनलोड हो रहा है</string>
+    <string name="feed_browser_more_options">और विकल्प</string>
+    <string name="feed_browser_cannot_load_page">पेज लोड नहीं किया जा सकता</string>
+    <string name="browser_ssl_error_title">सुरक्षा गलती</string>
+    <string name="browser_ssl_error_message">इस साइट के लिए सुरक्षा प्रमाणपत्र में समस्याएँ हैं</string>
+    <string name="browser_ssl_error_positive_button_text">वापस जाएँ</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$s स्थापित करें</string>
+    <string name="feed_browser_menu_item_install_app">एप्लिकेशन स्थापित करें</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$s में खोलें</string>
+    <string name="feed_browser_menu_item_open_with_app">एप्लिकेशन में खोलें</string>
+    <string name="feed_browser_menu_item_open_with">… के साथ खोलें</string>
+    <string name="browser_zoom_in_button_description">ज़ूम इन करें</string>
+    <string name="browser_zoom_out_button_description">ज़ूम आउट करें</string>
+    <string name="browser_close_button_description">ब्राउज़र बंद करें</string>
+    <string name="browser_share_icon_description">सामग्री साझा करें</string>
+    <string name="browser_lite_location_permission_prompt">%1$s आपके डिवाइस के स्थान का उपयोग करना चाहता है.</string>
+    <string name="browser_lite_location_permission_allow">अनुमति दें</string>
+    <string name="browser_lite_location_permission_block">ब्लॉक करें</string>
+    <string name="browser_add_platform_extension_description">प्लेटफ़ॉर्म एक्सटेंशन जोड़ें</string>
+    <string name="browser_confirm_platform_extension_added_description">प्लेटफ़ॉर्म एक्सटेंशन जोड़ना कन्फ़र्म करें</string>
+    <string name="common_google_play_services_unknown_issue">Google Play सेवाओं के साथ अज्ञात समस्या.</string>
+</resources>

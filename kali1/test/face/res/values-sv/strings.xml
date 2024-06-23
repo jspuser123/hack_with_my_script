@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Lägg till i Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Laddar ned uppdatering</string>
+    <string name="feed_browser_more_options">Fler alternativ</string>
+    <string name="feed_browser_cannot_load_page">Sidan kan inte laddas</string>
+    <string name="browser_ssl_error_title">Säkerhetsfel</string>
+    <string name="browser_ssl_error_message">Det finns problem med säkerhetscertifikatet för den här webbplatsen</string>
+    <string name="browser_ssl_error_positive_button_text">Tillbaka</string>
+    <string name="feed_browser_menu_item_install_specific_app">Installera %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Installera app</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Öppna i %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Öppna i app</string>
+    <string name="feed_browser_menu_item_open_with">Öppna med …</string>
+    <string name="browser_text_zoom_percentage_template">%1$d %%</string>
+    <string name="browser_zoom_in_button_description">Zooma in</string>
+    <string name="browser_zoom_out_button_description">Zooma ut</string>
+    <string name="browser_close_button_description">Stäng webbläsaren</string>
+    <string name="browser_share_icon_description">Dela innehåll</string>
+    <string name="browser_lite_location_permission_prompt">%1$s vill använda din enhetsplats.</string>
+    <string name="browser_lite_location_permission_allow">Tillåt</string>
+    <string name="browser_lite_location_permission_block">Spärra</string>
+    <string name="browser_add_platform_extension_description">Lägg till plattformstillägg</string>
+    <string name="browser_confirm_platform_extension_added_description">Bekräfta tillagt plattformstillägg</string>
+    <string name="common_google_play_services_unknown_issue">Okänt problem med Google Play Tjänster</string>
+</resources>

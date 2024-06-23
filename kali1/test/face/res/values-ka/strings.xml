@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">მეტი არჩევანი</string>
+    <string name="browser_ssl_error_positive_button_text">უკან დაბრუნება</string>
+    <string name="browser_zoom_in_button_description">გამოსახულების გადიდება</string>
+    <string name="browser_lite_location_permission_block">დაბლოკვა</string>
+</resources>

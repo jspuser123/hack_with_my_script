@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Lite ಗೆ ಸೇರಿಸಿ</string>
+    <string name="appupdate_notif_title_download_in_progress">ನವೀಕರಣ ಡೌನ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="feed_browser_more_options">ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು</string>
+    <string name="feed_browser_cannot_load_page">ಪುಟವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಲಿಲ್ಲ</string>
+    <string name="browser_ssl_error_title">ಭದ್ರತಾ ದೋಷ</string>
+    <string name="browser_ssl_error_message">ಈ ಸೈಟ್‌ಗೆ ಭದ್ರತಾ ಪ್ರಮಾಣಪತ್ರದ ಸಮಸ್ಯೆಗಳಿವೆ.</string>
+    <string name="browser_ssl_error_positive_button_text">ಹಿಂದಕ್ಕೆ ಹೋಗು</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$s ಸ್ಥಾಪಿಸಿ</string>
+    <string name="feed_browser_menu_item_install_app">ಅಪ್ಲಿಕೇಶನ್ ಸ್ಥಾಪಿಸಿ</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$s ನಲ್ಲಿ ತೆರೆಯಿರಿ</string>
+    <string name="feed_browser_menu_item_open_with_app">ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ</string>
+    <string name="feed_browser_menu_item_open_with">… ರೊಂದಿಗೆ ತೆರೆಯಿರಿ</string>
+    <string name="browser_zoom_in_button_description">ಹಿಗ್ಗಿಸು</string>
+    <string name="browser_zoom_out_button_description">ಜೂಮ್ ಔಟ್</string>
+    <string name="browser_close_button_description">ಬ್ರೌಸರ್ ಮುಚ್ಚಿರಿ</string>
+    <string name="browser_share_icon_description">ವಿಷಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="browser_lite_location_permission_prompt">ನಿಮ್ಮ ಸಾಧನದ ಸ್ಥಳವನ್ನು ಬಳಸಲು %1$s ಬಳಸುತ್ತಿದೆ.</string>
+    <string name="browser_lite_location_permission_allow">ಅನುಮತಿಸಿ</string>
+    <string name="browser_lite_location_permission_block">ನಿರ್ಬಂಧಿಸು</string>
+    <string name="browser_add_platform_extension_description">ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ವಿಸ್ತರಣೆಯನ್ನು ಸೇರಿಸಿ</string>
+    <string name="browser_confirm_platform_extension_added_description">ಸೇರಿಸಲಾದ ವೇದಿಕೆ ವಿಸ್ತರಣೆ ದೃಢೀಕರಿಸಿ</string>
+</resources>

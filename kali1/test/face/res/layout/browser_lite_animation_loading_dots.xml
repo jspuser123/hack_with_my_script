@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/browser_lite_animation_loading_dots" android:layout_width="26.0dip" android:layout_height="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/loading_dot_1" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+    <ImageView android:id="@id/loading_dot_2" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" />
+    <ImageView android:id="@id/loading_dot_3" android:layout_width="6.0dip" android:layout_height="6.0dip" />
+</LinearLayout>

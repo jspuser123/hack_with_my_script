@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Tambahkan ke Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Mengunduh pembaruan</string>
+    <string name="feed_browser_more_options">Opsi lainnya</string>
+    <string name="feed_browser_cannot_load_page">Halaman tidak dapat dimuat</string>
+    <string name="browser_ssl_error_title">Kesalahan keamanan</string>
+    <string name="browser_ssl_error_message">Terjadi masalah dengan sertifikat keamanan untuk situs ini</string>
+    <string name="browser_ssl_error_positive_button_text">Kembali</string>
+    <string name="feed_browser_menu_item_install_specific_app">Pasang %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Pasang aplikasi</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Buka di %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Buka dalam aplikasi</string>
+    <string name="feed_browser_menu_item_open_with">Buka dengan …</string>
+    <string name="browser_zoom_in_button_description">Perbesar</string>
+    <string name="browser_zoom_out_button_description">Perkecil</string>
+    <string name="browser_close_button_description">Tutup browser</string>
+    <string name="browser_share_icon_description">Bagikan Konten</string>
+    <string name="browser_lite_location_permission_prompt">%1$s ingin menggunakan lokasi perangkat Anda.</string>
+    <string name="browser_lite_location_permission_allow">Izinkan</string>
+    <string name="browser_lite_location_permission_block">Blokir</string>
+    <string name="browser_add_platform_extension_description">Tambahkan Ekstensi Platform</string>
+    <string name="browser_confirm_platform_extension_added_description">Konfirmasikan Ekstensi Platform yang Ditambahkan</string>
+    <string name="common_google_play_services_unknown_issue">Masalah tidak diketahui pada layanan Google Play.</string>
+</resources>

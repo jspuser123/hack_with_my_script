@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">Повеќе опции</string>
+    <string name="browser_ssl_error_positive_button_text">Вратете се назад</string>
+    <string name="feed_browser_menu_item_install_app">Инсталирај ја апликацијата</string>
+    <string name="browser_zoom_in_button_description">Зумирај</string>
+    <string name="browser_zoom_out_button_description">Одзумирај</string>
+    <string name="browser_lite_location_permission_allow">Дозволи</string>
+    <string name="browser_lite_location_permission_block">Блокирај</string>
+</resources>

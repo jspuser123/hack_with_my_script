@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Liteకి జోడించండి</string>
+    <string name="appupdate_notif_title_download_in_progress">నవీకరణను డౌన్‌లోడ్ చేస్తోంది</string>
+    <string name="feed_browser_more_options">మరిన్ని ఎంపికలు</string>
+    <string name="feed_browser_cannot_load_page">పేజీ లోడ్ చేయబడదు</string>
+    <string name="browser_ssl_error_title">భద్రతా లోపం</string>
+    <string name="browser_ssl_error_message">ఈ సైట్‌లో భద్రతా సర్టిఫికేట్‌తో సమస్యలు ఏర్పడ్డాయి</string>
+    <string name="browser_ssl_error_positive_button_text">వెనుకకు వెళ్లు</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$sను ఇన్‌స్టాల్ చేయండి</string>
+    <string name="feed_browser_menu_item_install_app">అనువర్తనాన్ని ఇన్‌స్టాల్ చేయండి</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$sలో తెరువు</string>
+    <string name="feed_browser_menu_item_open_with_app">అప్లికేషన్‌లో తెరువు</string>
+    <string name="feed_browser_menu_item_open_with">…తో తెరువు</string>
+    <string name="browser_zoom_in_button_description">దగ్గరికి జూమ్ చేస్తుంది</string>
+    <string name="browser_zoom_out_button_description">దూరంగా జూమ్ చేస్తుంది</string>
+    <string name="browser_close_button_description">బ్రౌజర్‌ను మూసివేస్తుంది</string>
+    <string name="browser_share_icon_description">కంటెంట్‌ను భాగస్వామ్యం చేయండి</string>
+    <string name="browser_lite_location_permission_prompt">%1$s మీ పరికరం స్థానాన్ని ఉపయోగించుకోవాలనుకుంటోంది.</string>
+    <string name="browser_lite_location_permission_allow">అనుమతించు</string>
+    <string name="browser_lite_location_permission_block">నిరోధించు</string>
+    <string name="browser_add_platform_extension_description">ప్లాట్‌ఫారమ్ పొడిగింపు‌ని జోడించండి</string>
+    <string name="browser_confirm_platform_extension_added_description">జోడించబడిన ప్లాట్‌ఫారమ్ పొడిగింపును నిర్ధారించండి</string>
+</resources>

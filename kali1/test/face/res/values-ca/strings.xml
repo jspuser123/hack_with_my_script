@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">Més opcions</string>
+    <string name="browser_ssl_error_positive_button_text">Torna enrere</string>
+    <string name="feed_browser_menu_item_install_app">"Instal·la l'aplicació"</string>
+    <string name="browser_zoom_in_button_description">Apropa</string>
+    <string name="browser_zoom_out_button_description">Allunya</string>
+    <string name="browser_lite_location_permission_allow">Permet</string>
+    <string name="browser_lite_location_permission_block">Bloqueja</string>
+    <string name="common_google_play_services_unknown_issue">Error desconegut relacionat amb els serveis de Google Play.</string>
+</resources>

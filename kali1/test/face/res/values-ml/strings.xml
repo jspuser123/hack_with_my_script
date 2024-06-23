@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Lite-ലേക്ക് ചേർക്കുക</string>
+    <string name="appupdate_notif_title_download_in_progress">അപ്‌ഡേറ്റ് ഡൗൺലോഡുചെയ്യുന്നു</string>
+    <string name="feed_browser_more_options">കൂടുതൽ ഓപ്‌‌ഷനുകൾ</string>
+    <string name="feed_browser_cannot_load_page">പേജ് ലോഡുചെയ്യാനാവില്ല</string>
+    <string name="browser_ssl_error_title">സുരക്ഷാ പിശക്</string>
+    <string name="browser_ssl_error_message">ഈ സൈറ്റിന്റെ സുരക്ഷ സർട്ടിഫിക്കറ്റുമായി ബന്ധപ്പെട്ട് പ്രശ്‌നങ്ങൾ ഉണ്ടായിരിക്കുന്നു</string>
+    <string name="browser_ssl_error_positive_button_text">മടങ്ങുക</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$s ഇൻസ്റ്റാളുചെയ്യുക</string>
+    <string name="feed_browser_menu_item_install_app">ആപ്ലിക്കേഷന്‍ ഇന്‍സ്റ്റാള്‍ ചെയ്യുക</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$s എന്നതിൽ തുറക്കുക</string>
+    <string name="feed_browser_menu_item_open_with_app">ആപ്ലിക്കേഷനിൽ തുറക്കുക</string>
+    <string name="feed_browser_menu_item_open_with">… എന്നതുപയോഗിച്ച് തുറക്കുക</string>
+    <string name="browser_zoom_in_button_description">സൂം ഇൻ</string>
+    <string name="browser_zoom_out_button_description">സൂം ഔട്ട്</string>
+    <string name="browser_close_button_description">ബ്രൗസർ അടയ്‌ക്കുക</string>
+    <string name="browser_share_icon_description">ഉള്ളടക്കം പങ്കിടുക</string>
+    <string name="browser_lite_location_permission_prompt">%1$s, നിങ്ങളുടെ ഉപകരണത്തിന്റെ ലൊക്കേഷൻ ഉപയോഗിക്കാൻ താൽപ്പര്യപ്പെടുന്നു.</string>
+    <string name="browser_lite_location_permission_allow">അനുവദിക്കുക</string>
+    <string name="browser_lite_location_permission_block">തടയുക</string>
+    <string name="browser_add_platform_extension_description">പ്ലാറ്റ്‌ഫോം വിപുലീകരണം ചേർക്കുക</string>
+    <string name="browser_confirm_platform_extension_added_description">ചേർത്ത പ്ലാറ്റ്‌ഫോം വിപുലീകരണം സ്ഥിരീകരിക്കുക</string>
+</resources>

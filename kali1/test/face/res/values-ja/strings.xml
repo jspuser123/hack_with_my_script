@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Liteに追加</string>
+    <string name="appupdate_notif_title_download_in_progress">アップデートをダウンロード中です</string>
+    <string name="feed_browser_more_options">他のオプション</string>
+    <string name="feed_browser_cannot_load_page">ページを読み込めませんでした</string>
+    <string name="browser_ssl_error_title">セキュリティエラー</string>
+    <string name="browser_ssl_error_message">このサイトのセキュリティ証明書に問題があります</string>
+    <string name="browser_ssl_error_positive_button_text">戻る</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$sをインストール</string>
+    <string name="feed_browser_menu_item_install_app">アプリをインストール</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$sで開く</string>
+    <string name="feed_browser_menu_item_open_with_app">アプリで開く</string>
+    <string name="feed_browser_menu_item_open_with">使用するアプリを選択…</string>
+    <string name="browser_zoom_in_button_description">拡大</string>
+    <string name="browser_zoom_out_button_description">縮小</string>
+    <string name="browser_close_button_description">ブラウザーを閉じる</string>
+    <string name="browser_share_icon_description">コンテンツをシェア</string>
+    <string name="browser_lite_location_permission_prompt">%1$sがお使いの機器の位置情報へのアクセスをリクエストしています。</string>
+    <string name="browser_lite_location_permission_allow">許可する</string>
+    <string name="browser_lite_location_permission_block">ブロック</string>
+    <string name="browser_add_platform_extension_description">プラットフォーム拡張機能を追加</string>
+    <string name="browser_confirm_platform_extension_added_description">プラットフォーム拡張機能の追加を承認</string>
+    <string name="common_google_play_services_unknown_issue">Google Play開発者サービスで原因不明の問題が発生しました。</string>
+</resources>

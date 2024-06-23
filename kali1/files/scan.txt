@@ -1,0 +1,64 @@
+nmap --script=smb-enum-users 192.168.80.1
+122.165.212.191
+STATE    SERVICE    
+21/tcp    open     ftp        
+80/tcp    open     http       
+135/tcp   filtered msrpc      
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-d
+s                             
+514/tcp   filtered shell      
+1025/tcp  filtered NFS-or-IIS 
+1039/tcp  open     sbl        
+1075/tcp  filtered rdrmshc    
+1080/tcp  filtered socks      
+3128/tcp  filtered squid-http 
+3389/tcp  open     ms-wbt-serv
+er                            
+4444/tcp  filtered krb524     
+4899/tcp  filtered radmin     
+5000/tcp  filtered upnp       
+6112/tcp  filtered dtspc      
+6129/tcp  filtered unknown    
+8080/tcp  filtered http-proxy 
+12345/tcp filtered netbus  
+
+
+n report for windows.c
+loudtb.com (209.59.186.19)    
+Host is up (0.44s latency).   
+Not shown: 972 closed ports   
+PORT      STATE    SERVICE    
+21/tcp    open     ftp        
+25/tcp    open     smtp       
+53/tcp    open     domain     
+80/tcp    open     http       
+110/tcp   open     pop3       
+135/tcp   open     msrpc      
+143/tcp   open     imap       
+161/tcp   filtered snmp       
+443/tcp   open     https      
+445/tcp   open     microsoft-d
+s                             
+587/tcp   open     submission 
+1433/tcp  open     ms-sql-s   
+1666/tcp  filtered netview-aix
+-6                            
+3306/tcp  open     mysql      
+3389/tcp  open     ms-wbt-serv
+er                            
+6666/tcp  filtered irc        
+6667/tcp  filtered irc        
+6668/tcp  filtered irc        
+6669/tcp  filtered irc        
+8009/tcp  open     ajp13      
+8080/tcp  open     http-proxy 
+8443/tcp  open     https-alt  
+9080/tcp  open     glrpc      
+49152/tcp open     unknown    
+49153/tcp open     unknown    
+49154/tcp open     unknown    
+49155/tcp open     unknown    
+49156/tcp open     unknown
+
+

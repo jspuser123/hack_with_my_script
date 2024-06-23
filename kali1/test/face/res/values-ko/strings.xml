@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Lite에 추가</string>
+    <string name="appupdate_notif_title_download_in_progress">업데이트 다운로드 중</string>
+    <string name="feed_browser_more_options">옵션 더 보기</string>
+    <string name="feed_browser_cannot_load_page">페이지를 읽어들일 수 없습니다</string>
+    <string name="browser_ssl_error_title">보안 오류</string>
+    <string name="browser_ssl_error_message">이 사이트의 보안 인증서에 문제가 있습니다</string>
+    <string name="browser_ssl_error_positive_button_text">돌아가기</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$s 설치</string>
+    <string name="feed_browser_menu_item_install_app">앱 설치</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$s에서 열기</string>
+    <string name="feed_browser_menu_item_open_with_app">앱에서 열기</string>
+    <string name="feed_browser_menu_item_open_with">열기…</string>
+    <string name="browser_zoom_in_button_description">확대</string>
+    <string name="browser_zoom_out_button_description">축소</string>
+    <string name="browser_close_button_description">브라우저 닫기</string>
+    <string name="browser_share_icon_description">콘텐츠 공유</string>
+    <string name="browser_lite_location_permission_prompt">%1$s에서 기기의 위치 정보를 사용하려고 합니다.</string>
+    <string name="browser_lite_location_permission_allow">허용</string>
+    <string name="browser_lite_location_permission_block">차단</string>
+    <string name="browser_add_platform_extension_description">플랫폼 확장 프로그램 추가</string>
+    <string name="browser_confirm_platform_extension_added_description">추가된 플랫폼 확장 프로그램 확인</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 서비스에 알 수 없는 문제가 발생했습니다.</string>
+</resources>

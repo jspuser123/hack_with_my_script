@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:background="@color/gallery_video_item_overlay_bg" android:padding="@dimen/gallery_video_item_overlay_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start" android:id="@id/camcoder_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camcoder_icon" />
+    <TextView android:textSize="@dimen/video_duration_text_size" android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

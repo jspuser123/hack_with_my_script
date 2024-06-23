@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Ajouter à Lite</string>
+    <string name="appupdate_notif_title_download_in_progress">Téléchargement de la mise à jour</string>
+    <string name="feed_browser_more_options">Plus d’options</string>
+    <string name="feed_browser_cannot_load_page">Impossible de charger la Page</string>
+    <string name="browser_ssl_error_title">Erreur de sécurité</string>
+    <string name="browser_ssl_error_message">Le certificat de sécurité de ce site présente des problèmes</string>
+    <string name="browser_ssl_error_positive_button_text">Revenir</string>
+    <string name="feed_browser_menu_item_install_specific_app">Installer %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Installer l’application</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Ouvrir dans %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Ouvrir dans l’application</string>
+    <string name="feed_browser_menu_item_open_with">Ouvrir avec …</string>
+    <string name="browser_zoom_in_button_description">Zoom avant</string>
+    <string name="browser_zoom_out_button_description">Zoom arrière</string>
+    <string name="browser_close_button_description">Fermer le navigateur</string>
+    <string name="browser_share_icon_description">Partager le contenu</string>
+    <string name="browser_lite_location_permission_prompt">%1$s veut utiliser la position de votre appareil.</string>
+    <string name="browser_lite_location_permission_allow">Autoriser</string>
+    <string name="browser_lite_location_permission_block">Bloquer</string>
+    <string name="browser_add_platform_extension_description">Ajouter une extension de plateforme</string>
+    <string name="browser_confirm_platform_extension_added_description">Confirmer l’ajout de l’extension</string>
+    <string name="common_google_play_services_unknown_issue">Problème inconnu avec les services Google Play.</string>
+</resources>

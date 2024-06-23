@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Lite ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="appupdate_notif_title_download_in_progress">ਅਪਡੇਟ ਨੂੰ ਡਾਉਨਲੋਡ ਕਰ ਰਿਹਾ ਹੈ</string>
+    <string name="feed_browser_more_options">ਹੋਰ ਵਿਕਲਪ</string>
+    <string name="feed_browser_cannot_load_page">ਪੰਨੇ ਨੂੰ ਲੋਡ ਨਹੀ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ</string>
+    <string name="browser_ssl_error_title">ਸੁਰੱਖਿਆ ਤਰੁੱਟੀ</string>
+    <string name="browser_ssl_error_message">ਇਸ ਸਾਈਟ ਲਈ ਸੁਰੱਖਿਆ ਪ੍ਰਮਾਣੀਕਰਣ ਦੇ ਨਾਲ ਸਮੱਸਿਆਵਾਂ ਹਨ</string>
+    <string name="browser_ssl_error_positive_button_text">ਪਿੱਛੇ ਜਾਓ</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$s ਸਥਾਪਿਤ ਕਰੋ</string>
+    <string name="feed_browser_menu_item_install_app">ਐਪ ਸਥਾਪਿਤ ਕਰੋ</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$s ਵਿੱਚ ਖੋਲ੍ਹੋ</string>
+    <string name="feed_browser_menu_item_open_with_app">ਐਪ ਵਿੱਚ ਖੋਲ੍ਹੋ</string>
+    <string name="feed_browser_menu_item_open_with">ਇਸ ਦੇ ਨਾਲ ਖੋੱਲਹੋ…</string>
+    <string name="browser_zoom_in_button_description">ਜ਼ੂਮ ਇਨ ਕਰੋ</string>
+    <string name="browser_zoom_out_button_description">ਜ਼ੂਮ ਆਉਟ ਕਰੋ</string>
+    <string name="browser_close_button_description">ਬ੍ਰਾਉਜ਼ਰ ਬੰਦ ਕਰੋ</string>
+    <string name="browser_share_icon_description">ਸਮੱਗਰੀ ਨੂੰ ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="browser_lite_location_permission_prompt">%1$s ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਦੇ ਸਥਾਨ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਚਾਹੁੰਦਾ/ਚਾਹੁੰਦੀ ਹੈ।</string>
+    <string name="browser_lite_location_permission_allow">ਇਜਾਜ਼ਤ ਦਿਓ</string>
+    <string name="browser_lite_location_permission_block">ਬਲੌਕ ਕਰੋ</string>
+    <string name="browser_add_platform_extension_description">ਪਲੇਟਫਾਰਮ ਐਕਸਟੈਂਸ਼ਨ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="browser_confirm_platform_extension_added_description">ਸ਼ਾਮਲ ਕੀਤੀ ਪਲੇਟਫਾਰਮ ਐਕਸਟੈਂਸ਼ਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+</resources>

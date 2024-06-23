@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="external_share_intent_label">Megosztás a Lite-ban</string>
+    <string name="appupdate_notif_title_download_in_progress">Frissítés letöltése</string>
+    <string name="feed_browser_more_options">További beállítások</string>
+    <string name="feed_browser_cannot_load_page">Az oldalt nem lehet betölteni.</string>
+    <string name="browser_ssl_error_title">Biztonsági hiba</string>
+    <string name="browser_ssl_error_message">Problémák vannak a hely biztonsági tanúsítványával.</string>
+    <string name="browser_ssl_error_positive_button_text">Vissza</string>
+    <string name="feed_browser_menu_item_install_specific_app">A(z) %1$s telepítése</string>
+    <string name="feed_browser_menu_item_install_app">Alkalmazás telepítése</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Megnyitom a(z) %1$s használatával</string>
+    <string name="feed_browser_menu_item_open_with_app">Megnyitás az alkalmazásban</string>
+    <string name="feed_browser_menu_item_open_with">Megnyitás:</string>
+    <string name="browser_zoom_in_button_description">Nagyítás</string>
+    <string name="browser_zoom_out_button_description">Kicsinyítés</string>
+    <string name="browser_close_button_description">Böngésző bezárása</string>
+    <string name="browser_share_icon_description">Tartalom megosztása</string>
+    <string name="browser_lite_location_permission_prompt">A(z) %1$s használni szeretné a készüléked helyét.</string>
+    <string name="browser_lite_location_permission_allow">Engedélyezem</string>
+    <string name="browser_lite_location_permission_block">Tiltás</string>
+    <string name="browser_add_platform_extension_description">Platformbővítmény hozzáadása</string>
+    <string name="browser_confirm_platform_extension_added_description">Platformbővítmény hozzáadásának megerősítése</string>
+    <string name="common_google_play_services_unknown_issue">Ismeretlen hiba a Google Play-szolgáltatásokban.</string>
+</resources>

